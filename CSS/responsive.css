@@ -1,0 +1,479 @@
+/* responsive screen beetween zero  to 576px */
+@media only screen and (max-width: 576px) {
+  .banner-title {
+    font-size: 2.8rem;
+    text-align: start;
+  }
+  .banner-desc {
+    font-size: 1.4rem;
+    text-align: start;
+  }
+  .banner-three-box {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .banner-three-box,
+  .achievement-list {
+    max-width: 770px;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 0.5rem !important;
+  }
+  ul {
+    padding-left: 0 !important;
+  }
+  .contact-us-btn,
+  .contact-us-text {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    padding: 15px !important;
+    font-size: 3rem !important;
+  }
+  .contactUs-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .show-reel-content {
+    padding: 0.375rem;
+  }
+  .show-reel .watch-reel-head {
+    font-size: 1.2rem !important;
+    max-width: 380px;
+  }
+  .videobtn-case-icon {
+    position: relative;
+    width: 340px;
+  }
+  .upper-left-box {
+    width: 100%;
+    padding: 0 0rem;
+  }
+  .upper-left-box h2 {
+    font-size: 2.2rem;
+    padding-top: 3rem;
+  }
+  .upper-left-box p {
+    font-size: 1.1rem;
+  }
+  .right-main-box {
+    margin-top: 1rem;
+  }
+  .right-main-box-one {
+    width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .black-para {
+    padding-right: 1rem;
+  }
+  .right-main-box .right-main-box-one .inner_para {
+    min-width: 100% !important;
+    padding-top: 1rem;
+    margin-left: 0px !important;
+  }
+  .knowMore-section .knowMore-right-container {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .knowMore-section .content-knowMore {
+    padding: 2.5rem 0.75rem 0 0.75rem;
+    flex-wrap: wrap;
+  }
+  .knowMore-section .knowMore-left-title,
+  .knowMore-left-desc {
+    font-size: 1.5rem;
+    padding-bottom: 1rem !important;
+    max-width: 650px !important;
+  }
+  .knowMore-section .knowMore-left-title {
+    font-size: 1.5rem;
+    max-width: 650px !important;
+  }
+  .knowMore-section .knowMore-left-desc {
+    padding-top: 0rem !important;
+  }
+  .testimony-wrapper {
+    flex-direction: column;
+  }
+  .testimony-section .testimony-right-slider {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .testimony-section .card {
+    max-width: 100%;
+    margin: 0;
+  }
+  /* award-case-section */
+  .container-award{
+    padding: 0 .75rem ;
+  }
+  .award-recog-section .award-list {
+    flex-wrap: wrap;
+    margin-left: -0.75rem;
+  }
+  .award-card {
+    max-width: calc(100% - 12px);
+    min-width: calc(100% - 12px);
+    margin-bottom: 0.75rem;
+    margin-left: 0.75rem;
+  }
+  .award-recog-section .award-title {
+    font-size: 2rem;
+  }
+  .container-insight{
+    padding: 0 .75rem ;
+  }
+  .insight-wrapper .insight-slider {
+    gap: 25px !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .insight-card {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 2rem 0 0 0;
+  }
+  .seeAll {
+    display: none;
+  }
+  /* faq css responsive */
+  .FAQ-section .question .sub-title-question {
+    font-size: 1.1rem;
+  }
+  .container-faq{
+    padding: 0 .75rem;
+  }
+  /* footer responsive */
+  .footer-bottom-content{
+  flex-direction: column;
+  }
+  .head-wrapper{
+    margin-bottom: 2rem !important;
+  }
+  .footer-section .interact-media-wrap .interact-media{
+    margin-left: 0rem;
+    margin-right: 2rem;
+  }
+  .footer-section .area-list{
+    flex-direction: column;
+  }
+  .area-list .list-items{
+  margin-bottom: 2rem;
+  }
+  .footer-section .footer-head ,.interact-head-sub{
+    font-size: 2.5rem;
+  }
+  .container-footer { 
+    padding: 0 .75rem ;
+}
+}
+/*Responsive screen between 576px to 768px*/
+@media (min-width: 576px) and (max-width: 768px) {
+  .banner-title {
+    font-size: 2.7rem;
+    text-align: start;
+  }
+  .banner-desc {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+  ul {
+    padding-left: 0 !important;
+  }
+  .achievement-list {
+    column-gap: 0.5rem !important;
+  }
+  .container {
+    max-width: 800px !important;
+  }
+  .contactUs-box {
+    justify-content: start;
+  }
+  .row {
+    justify-content: center;
+  }
+  .item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .upper-left-box h2 {
+    font-size: 2.4rem;
+  }
+  .upper-left-box p {
+    font-size: 1.2rem;
+  }
+  .right-main-box {
+    margin-top: 1rem;
+  }
+  .right-main-box .right-main-box-one .inner_para {
+    min-width: 100% !important;
+    padding-top: 4rem;
+    margin-left: 0px !important;
+  }
+  .knowMore-section .content-knowMore {
+    padding: 2.5rem 0.75rem 0 0.75rem;
+    flex-wrap: wrap;
+  }
+  .knowMore-section .knowMore-right-container {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .knowMore-section .knowMore-left-title,
+  .knowMore-left-desc {
+    font-size: 1.5rem;
+  }
+  .knowMore-left-desc {
+    padding-bottom: 1rem !important;
+  }
+  .knowMore-section .content-knowMore {
+    padding: 2.5rem 2.5rem 0 2.5rem;
+  }
+  .testimony-wrapper {
+    flex-direction: column;
+  }
+  .testimony-section .testimony-right-slider {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .testimony-section .card {
+    max-width: 100%;
+    margin: 0;
+  }
+  /* award-case-section */
+  .award-recog-section .award-list {
+    flex-wrap: wrap;
+    margin-left: -0.75rem;
+  }
+  .award-card {
+    max-width: calc(50% - 12px);
+    min-width: calc(50% - 12px);
+    margin-bottom: 0.75rem;
+    margin-left: 0.75rem;
+  }
+  .insight-wrapper .insight-slider {
+    gap: 25px !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .insight-card {
+    max-width: 75%;
+    min-width: 75%;
+    margin: 2rem 0;
+  }
+  .seeAll {
+    display: none;
+  }
+   /* footer responsive */
+   .footer-bottom-content{
+    flex-direction: column;
+   }
+   .head-wrapper{
+     margin-bottom: 2rem !important;
+   }
+   .footer-section .interact-media-wrap .interact-media{
+     margin-left: 0rem;
+     margin-right: 7rem;
+     margin-top: 3rem;
+   }
+   .footer-section .area-list{
+     flex-direction: column;
+   }
+   .area-list .list-items{
+    margin-bottom: 2rem;
+   } 
+   .footer-section .footer-head ,.interact-head-sub{
+    font-size: 2.7rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .case-study-box {
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0 0 3rem 0;
+  }
+  .case-study-section .case-study-row {
+    margin-left: 0;
+    flex-wrap: wrap !important;
+  }
+  .footer-image{
+    display: none;
+  }
+  .footer-bottom-content{
+    align-items: start;
+  }
+}
+/* responsive screen beetween 768px to 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .banner-title {
+    font-size: 2.8rem;
+  }
+  .banner-desc {
+    font-size: 1.5rem;
+    margin: auto !important;
+  }
+  .banner-three-box {
+    max-width: 950px;
+    margin: 2rem 0 0 0;
+  }
+  .container {
+    max-width: 900px !important;
+  }
+  .upper-left-box h2 {
+    font-size: 2.6rem;
+    padding: 3rem 0rem;
+  }
+  .upper-left-box p {
+    font-size: 1.3rem;
+  }
+  .right-main-box {
+    margin-top: 1.5rem;
+  }
+  .right-main-box-one {
+    gap: 2rem;
+    padding: 3rem;
+  }
+  .right-main-box {
+    max-width: 100%;
+  }
+  .right-main-box .right-main-box-one {
+    flex-direction: column;
+    padding: 2.5rem 0;
+  }
+  .right-main-box .right-main-box-one .inner_para {
+    min-width: 100%;
+    max-width: 100% !important;
+    padding-top: 1rem;
+    margin-left: 0px !important;
+  }
+  .knowMore-section .knowMore-right-container {
+    min-width: 350px;
+    max-width: 350px;
+  }
+  .knowMore-section .knowMore-left-desc {
+    padding-bottom: 1rem;
+  }
+  .testimony-wrapper {
+    flex-direction: column;
+  }
+  .testimony-section .testimony-right-slider {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .case-study-section .case-study-row {
+    margin-left: -2.75rem;
+    margin-right: 1.75rem;
+  }
+  .case-study-box {
+    min-width: calc(50% - 60px);
+    max-width: calc(50% - 60px);
+    margin-left: 3.75rem !important;
+  }
+  /* award-case-section */
+  .award-list {
+    flex-wrap: wrap;
+    margin-left: -0.75rem;
+  }
+  .award-recog-section .award-list .award-card {
+    max-width: calc(33.3333333333% - 12px);
+    min-width: calc(33.3333333333% - 12px);
+    margin-bottom: 1.5rem;
+    margin-left: 0.75rem;
+  }
+  .insight-recog-section .insight-card {
+    max-width: calc(33.3333333333% - 12px);
+    min-width: calc(33.3333333333% - 12px);
+    margin-bottom: 1.5rem;
+    margin-left: 0.75rem;
+  }
+  .insight-slider {
+    gap: 30px !important;
+    flex-wrap: wrap;
+  }
+  .insight-card {
+    max-width: 45%;
+    min-width: 45%;
+    margin: 2rem 0;
+  }
+  /* footer responsive */
+  .footer-bottom-content{
+    align-items: start;
+  }
+  .footer-bottom-content{
+   flex-direction: column;
+  }
+  .head-wrapper{
+    margin-bottom: 2rem !important;
+  }
+  .footer-section .interact-media-wrap .interact-media{
+    margin-left: 0rem;
+    margin-right: 7rem;
+    margin-top: 3rem;
+  }
+  .footer-section .area-list{
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #navbarSupportedContent {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* know more section responsive */
+  .knowMore-section .content-knowMore {
+    padding: 2.5rem 2.5rem 0 2.5rem;
+  }
+  .footer-section .interact-media-wrap .interact-media{
+    margin-left: 3rem;
+  }
+}
+/* 1200px to 1366px */
+@media (min-width: 992px) and (max-width: 1280px) {
+  .insight-slider {
+    gap: 10px !important;
+    flex-wrap: wrap;
+  }
+  .insight-card {
+    max-width: 45%;
+    min-width: 45%;
+    margin-bottom: 4rem;
+  }
+}
+/* For screens between 992px and 1200px */
+@media (max-width: 1200px) {
+  .upper-left-box h2 {
+    font-size: 2.8rem;
+  }
+  .upper-left-box p {
+    font-size: 1.4rem;
+  }
+  .right-main-box {
+    margin: 0rem;
+  }
+  .right-main-box-one {
+    gap: 0rem;
+    padding: 1rem;
+  }
+  .black-para {
+    font-size: 1.4rem !important;
+  }
+  .black-head {
+    font-size: 1.5rem;
+  }
+}
+/* For screens between 1200px and 1500px */
+@media (max-width: 1500px) {
+  .upper-left-box h2 {
+    font-size: 3rem;
+  }
+  .upper-left-box p {
+    font-size: 1.5rem;
+  }
+  .right-main-box-one {
+    gap: 0rem;
+    padding: 3rem;
+  }
+}
