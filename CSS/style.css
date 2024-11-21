@@ -54,7 +54,6 @@ header {
     transform: translateY(0);
   }
 }
-
 /* Apply animation to navigation links */
 .animate-links .nav-link {
   opacity: 0;
@@ -75,7 +74,30 @@ header {
 .animate-links .nav-item:nth-child(5) .nav-link {
   animation-delay: 0.5s;
 }
+/* Styling for the dropdown menu */
+.main-drop-menu {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0;
+  min-width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+.main-drop-menu .dropdown-item {
+  padding: 0.5rem 1rem;
+  color: #333;
+}
+
+.main-drop-menu .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+}
 .inner-box {
   max-width: 950px;
 }

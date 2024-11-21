@@ -1,3 +1,19 @@
+// navbar dropdown open js.................................
+
+document.querySelectorAll('.nav-item').forEach((item) => {
+  item.addEventListener('mouseenter', () => {
+    const dropdown = item.querySelector('.dropdown-menu');
+    if (dropdown) dropdown.classList.add('show');
+  });
+
+  item.addEventListener('mouseleave', () => {
+    const dropdown = item.querySelector('.dropdown-menu');
+    if (dropdown) dropdown.classList.remove('show');
+  });
+});
+//  navbar dropdwn js End............................
+
+
 const watchReelText = document.querySelector(".videobtn-case-icon");
 const videoContainer = document.querySelector(".video-hover-box");
 const hoverVideo = document.getElementById("hoverVideo");
@@ -39,7 +55,7 @@ window.addEventListener('load', () => {
 
 
 
-//  testimony slider...............
+//  testimony slider.................................................
 const reviewSlider = document.getElementById('reviewSlider');
 const cardHeight = reviewSlider.querySelector('.card').offsetHeight;
 const scrollAmount = cardHeight * 2;
@@ -61,10 +77,10 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.5 }); 
 observer.observe(testimonySection);
-// testimony slider End........
+// testimony slider End............................................
 
 
-// case-study-block for auto video  playing
+// case-study-block for auto video  playing......................................
 //  JavaScript to conditionally add the video src attribute based on screen width
 document.addEventListener("DOMContentLoaded", function() {
   const caseStudyBoxes = document.querySelectorAll(".case-study-box");
@@ -83,9 +99,9 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   });
 });
+// case-study-block for auto video  playing End.....................................
 
-
-// FAQ section js
+// FAQ section js........................................................
 document.addEventListener("DOMContentLoaded", () => {
   const faqItems = document.querySelectorAll(".faq-container");
 
@@ -117,7 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
       item.classList.add("visible");
     }
   });
-
+  
   // Toggle additional FAQ items on "View More" button click
   viewMoreButton.addEventListener("click", () => {
     isExpanded = !isExpanded;
@@ -131,4 +147,4 @@ document.addEventListener("DOMContentLoaded", () => {
     viewMoreButton.textContent = isExpanded ? "View Less" : "View More";
   });
 });
-
+// FAQ section js End........................................................
