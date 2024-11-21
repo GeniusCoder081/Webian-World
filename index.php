@@ -279,7 +279,7 @@
           <div
             class="right-main-box-one black-boxes d-flex justify-content-between"
           >
-            <a href="#" class="hover-effect text-white">Enterprise_UX</a>
+            <a href="./Enterprises.php" class="hover-effect text-white">Enterprise_UX</a>
             <div class="inner_para">
               <p class="text-white black-para">
                 Full range of enterprise application UX UI design services
@@ -292,7 +292,7 @@
           <div
             class="right-main-box-one black-boxes d-flex justify-content-between"
           >
-            <a href="#" class="hover-effect text-white">UX_for_startups</a>
+            <a href="./StartUp.php" class="hover-effect text-white">UX_for_startups</a>
             <div class="inner_para">
               <p class="text-white black-para">
                 Full range of enterprise application UX UI design services

@@ -79,6 +79,8 @@
   .knowMore-section .content-knowMore {
     padding: 2.5rem 0.75rem 0 0.75rem;
     flex-wrap: wrap;
+    width: 100%;
+    margin-left: 0rem !important;
   }
   .knowMore-section .knowMore-left-title,
   .knowMore-left-desc {

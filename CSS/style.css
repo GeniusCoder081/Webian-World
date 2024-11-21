@@ -10,9 +10,8 @@
   --secondaryclr: #414141;
   --whiteclr: #ffffff;
   --btnclr: #FFC901;
-  --hoverclr: #e6b608;
+  --hoverclr: #f3c625;
   --footerclr: #11163d;
-  
 }
 .fs1 {
   font-size: 1rem;
@@ -664,7 +663,7 @@ form .hover-effect1:hover{
 .interact-head-sub {
   font-weight: 700;
   color: var(--whiteclr);
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: "Times New Roman", Times, serif;
 }
 .head-wrapper {

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/responsive.css" />
     <link rel="stylesheet" href="./CSS/contact-us.css" />
+    <link rel="stylesheet" href="../CSS/Enterprises.css">
+    <link rel="stylesheet" href="../CSS/StartUp.css">
     <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
     <link
       rel="shortcut icon"
@@ -17,6 +19,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <!-- swiper css -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -92,7 +95,7 @@
                 <a class="nav-link "   href="#">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"   href="#">Process</a>
+                <a class="nav-link"   href="../Enterprises.php">Process</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link "   href="#">About us</a>

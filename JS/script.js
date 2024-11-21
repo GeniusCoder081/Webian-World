@@ -3,11 +3,7 @@ const videoContainer = document.querySelector(".video-hover-box");
 const hoverVideo = document.getElementById("hoverVideo");
 // Check if window width is greater than 768px
 if (window.innerWidth > 768) {
-    // Set the video source URL dynamically
-    // hoverVideo.src =
-    //     "https:mp4//www.aufaitux.com/wp-content/uploads/2023/10/Preview-Showreel-Compressed1.";
-    hoverVideo.src =
-        "./assests/video/case001.mp4";
+    hoverVideo.src = "./assests/video/case001.mp4";
 
     // Zoom-in effect, play video, and change text color on hover
     watchReelText.addEventListener("mouseenter", () => {
@@ -34,6 +30,7 @@ if (window.innerWidth > 768) {
         videoContainer.style.left = `${offsetX - 100}px`; // Center horizontally
     });
 }
+
 // navbar ...................................................
 window.addEventListener('load', () => {
   const nav = document.querySelector('.animate-links');
@@ -134,3 +131,4 @@ document.addEventListener("DOMContentLoaded", () => {
     viewMoreButton.textContent = isExpanded ? "View Less" : "View More";
   });
 });
+
