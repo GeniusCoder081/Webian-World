@@ -116,9 +116,10 @@
         padding: 0 4rem 4rem 4rem;
 }
 .card-list .card-item .card-link{
-   max-width: 400px;
+   max-width: 320px;
+   height: auto;
   display: block;
-  background-color: var(--whiteclr);
+  background-color: var(--secondaryclr);
   padding: 12px;
   border-radius: 12px;
   text-decoration: none;
@@ -149,14 +150,14 @@
   border-radius: 10px;
 }
 .card-list .card-item .card-title{
-  color: #222222;
+  color: var(--whiteclr);
   font-size: 1.4rem;
   font-weight: 600;
   margin-top: 1rem;
 }
 .card-list .card-item  .card-desc{
   font-size: 1rem;
-  color: #414141;
+  color: var(--whiteclr)
 }
 .swiper {
   overflow: hidden;  
