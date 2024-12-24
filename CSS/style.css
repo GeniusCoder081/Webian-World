@@ -688,14 +688,21 @@ form .hover-effect1:hover{
   font-size: 4.5rem;
   font-family: "Times New Roman", Times, serif;
 }
+.address-area{
+  margin-bottom: 1rem;
+}
 .head-wrapper {
   margin-bottom: 8rem !important;
 }
 .footer-section .address-area .area-list .list-items {
-  margin-right: 3rem;
+  margin-right: 7rem;
 }
-.footer-section .interact-media-wrap .interact-media {
-  margin-left: 9rem;
+/* .footer-section .interact-media-wrap .interact-media {
+  display: flex;
+  flex-direction: column;
+} */
+.footer-section .interact-media-wrap{
+  gap: 9rem !important;
 }
 .footer-bottom-content {
   align-items: end;

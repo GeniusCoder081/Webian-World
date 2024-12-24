@@ -19,7 +19,7 @@
                 data-message-invalid-email="Sorry, that email address looks invalid."
                 data-message-required-field-missing="Please fill in the required fields."
                 data-message-error="Oops. An error occurred."
-              >
+              > 
                 <input
                   type="hidden"
                   name="apikey"
@@ -102,20 +102,19 @@
             <div class="office-locations">
               <div class="office-desc-wrapper d-flex flex-wrap">
                 <div class="office-desc">
-                  <p class="para-head">United States</p>
-                  <p class="office-loc-details">#1041</p>
-                  <p class="office-loc-details">20289 Stevens Creek Blvd</p>
-                  <p class="office-loc-details">Cupertino, CA 95014</p>
+                  <div class="para-head">Noida</div>
+                  <div class="office-loc-details">D-174</div>
+                  <div class="office-loc-details">201301 Sector 73 ,Mahagun Appartment</div>
                 </div>
-                <div class="office-desc">
-                  <p class="para-head">Calicut</p>
-                  <p class="office-loc-details">Sahya building</p>
-                  <p class="office-loc-details">Govt. Cyberpark</p>
-                  <p class="office-loc-details">Calicut - 673014</p>
+                <!-- <div class="office-desc">
+                  <div class="para-head">Calicut</div>
+                  <div class="office-loc-details">Sahya building</div>
+                  <div class="office-loc-details">Govt. Cyberpark</div>
+                  <div class="office-loc-details">Calicut - 673014</div>
                   <a href="tel:+91 6235611222" class="office-loc-details"
                     >+91 623 561 1222</a
                   >
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

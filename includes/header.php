@@ -31,7 +31,7 @@
   <header class="container-fluid">
     <nav class="navbar navbar-expand-lg py-4 py-lg-0">
       <div class="container-fluid px-lg-5 py-lg-2">
-        <a class="navbar-brand fs-2" href="#"><img
+        <a class="navbar-brand fs-2" href="../index.php"><img
             src="./assests/images/logo.svg"
             width="230px"
             height="80px"
@@ -62,7 +62,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation circle">
             <div class="d-flex justify-content-between p-3">
-              <a class="navbar-brand fs-2" href="#"><img
+              <a class="navbar-brand fs-2" href="../index.php"><img
                   src="./assests/images/logo.svg"
                   width="230px"
                   height="80px"
@@ -81,7 +81,7 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link d-flex align-items-center dropdown-toggle open-inline-popup"
+                class="nav-link d-flex align-items-center dropdown-toggle open-inline-popup "
                 href="#"
                 id="dropdownMenuLink"
                 role="button"
@@ -113,7 +113,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../Enterprises.php">Process</a>
+              <a class="nav-link " href="../Enterprises.php">Process</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="#">About us</a>
@@ -122,14 +122,24 @@
               <a class="nav-link " href="#">Blog</a>
             </li>
           </ul>
-          <form
-            class="d-flex mx-4"
-            role="search"
-            action="./contact-us.php">
-            <button class="btn btn-outline-primary" type="submit">
-              Contact Us
-            </button>
-          </form>
+          <div class="d-flex g-2">
+            <form
+              class="d-flex mx-4"
+              role="search"
+              action="../our-works.php">
+              <button class="btn btn-outline-warning" type="submit">
+                Portfolio
+              </button>
+            </form>
+            <form
+              class="d-flex mx-4"
+              role="search"
+              action="./contact-us.php">
+              <button class="btn btn-outline-primary" type="submit">
+                Contact Us
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </nav>

@@ -1,4 +1,4 @@
-<?php include 'includes/header.php';?>
+ <?php include 'includes/header.php';?>
 
     <section class="content pb-lg-4">
       <div class="hero-container pt-lg-4">
@@ -48,7 +48,7 @@
                   Contact Us
                 </button>
               </form>
-              <a href="./our-works.php" class="text-dark text-decoration-none">
+              <a href="./our-works.php" class="text-dark text-decoration-none outer-contect-btn-text">
               <div
                 class="mx-lg-5 my-lg-3 mx-3 my-2 fs-6 fw-bold contact-us-text"
               >

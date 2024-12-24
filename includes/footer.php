@@ -21,52 +21,39 @@
           <h2 class="footer-bottom-head text-white mb-lg-5">Locations</h2>
           <ul class="area-list d-flex list-unstyled text-white">
             <li class="list-items">
-              <h3 class="area-head fs1">USA</h3>
+              <h1 class="fs1-5 fw-bold">Address</h1>
+              <h3 class="area-head fs1">India</h3>
               <p class="area-desc fs1">
                 <a
                   href="#"
                   target="_blank"
                   class="area-desc fs1"
                   rel="noopener noreferrer">
-                  #1041<br />20289 Stevens Creek Blvd Cupertino, CA 95014
+                  D-174<br />Sector 73, Mahadev Appartment
+                  Noida 201301
                 </a>
               </p>
-              <a href="tel:+14088786244" class="area-desc fs1">+1 (408) 878 6244</a>
-            </li>
-            <li class="list-items">
-              <h3 class="area-head fs1">Bangalore</h3>
-              <p class="area-desc fs1">
-                <a
-                  href="#"
-                  target="_blank"
-                  class="area-desc fs1"
-                  rel="noopener noreferrer">
-                  No 198, CMH Road, <br />2nd Floor, Suite No 1322,<br />Indiranagar
-                  - 560038
-                </a>
-              </p>
-
-              <a href="tel:+916235600444" class="area-desc fs1">+91 623 560 0444</a>
-            </li>
-            <li class="list-items">
-              <h3 class="area-head fs1">Kerala</h3>
-              <p class="area-desc fs1">
-                <a
-                  href="#"
-                  target="_blank"
-                  class="area-desc fs1"
-                  rel="noopener noreferrer">
-                  Sahya Building <br />
-                  Govt. Cyberpark<br />
-                  Calicut - 673014
-                </a>
-              </p>
-              <a href="tel:+916235611222" class="area-desc fs1">+91 623 561 1222</a>
             </li>
           </ul>
         </div>
         <div class="interact-media-wrap d-flex">
           <ul class="interact-media list text-white list-unstyled">
+            <h1 class="fs1-5 fw-bold">Services</h1>
+            <li class="list-items pb-2">
+              <a href="#" class="list-link fs1">Enterprises</a>
+            </li>
+            <li class="list-items pb-2">
+              <a href="#" class="list-link fs1">UX StartUp</a>
+            </li>
+            <li class="list-items pb-2">
+              <a href="#" class="list-link fs1">UX Audit</a>
+            </li>
+            <li class="list-items pb-2">
+              <a href="#" class="list-link fs1">Design System</a>
+            </li>
+          </ul>
+          <ul class="interact-media list text-white list-unstyled">
+            <h1 class="fs1-5 fw-bold">Company</h1>
             <li class="list-items pb-2">
               <a href="#" class="list-link fs1">About us</a>
             </li>
@@ -81,6 +68,7 @@
             </li>
           </ul>
           <ul class="interact-media text-white list-unstyled">
+            <h1 class="fs1-5 fw-bold">Find Us</h1>
             <li class="list-items pb-2">
               <a href="#" class="list-link fs1">Dribbble</a>
             </li>
@@ -94,6 +82,18 @@
               <a href="#" class="list-link fs1">Facebook</a>
             </li>
           </ul>
+          <ul class="interact-media text-white list-unstyled">
+            <h1 class="fs1-5 fw-bold">Contact</h1>
+            <li class="list-items pb-2">
+              <a href="#" class="list-link fs1">webianworld@gmail.com</a>
+            </li>
+            <li class="list-items pb-2">
+              <a href="#" class="list-link fs1">+(011)-47517218</a>
+            </li>
+            <li class="list-items pb-2">
+              <a href="../contact-us.php" class="list-link fs1">More contact <i class="fa-solid fa-chevron-right fs1"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -104,84 +104,120 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="../JS/swiper.js"></script>
-<script >
-window.addEventListener("DOMContentLoaded", (e) => {
-  document.querySelectorAll('img[loading="lazy"]').forEach((e) => {
-    e.getBoundingClientRect().top <= window.innerHeight &&
-      (e.loading = "eager");
+<script>
+  window.addEventListener("DOMContentLoaded", (e) => {
+    document.querySelectorAll('img[loading="lazy"]').forEach((e) => {
+      e.getBoundingClientRect().top <= window.innerHeight &&
+        (e.loading = "eager");
+    });
   });
-});
 
-const form = document.querySelector("form[name='signForm']");
-const inputs = document.querySelectorAll(".form-input");
-// Add or remove 'filled' class based on input value
-inputs.forEach((input) => {
-  input.addEventListener("input", () => {
-    if (input.value.trim() !== "") {
-      input.classList.add("filled");
-    } else {
-      input.classList.remove("filled");
+  const form = document.querySelector("form[name='signForm']");
+  const inputs = document.querySelectorAll(".form-input");
+  // Add or remove 'filled' class based on input value
+  inputs.forEach((input) => {
+    input.addEventListener("input", () => {
+      if (input.value.trim() !== "") {
+        input.classList.add("filled");
+      } else {
+        input.classList.remove("filled");
+      }
+    });
+  });
+  // Clear form inputs and focus on the Name input on page load
+  window.addEventListener("load", () => {
+    inputs.forEach((input) => {
+      input.value = ""; // Clear input values
+      input.classList.remove("filled"); // Remove 'filled' class
+    });
+    // Focus on the Name input and apply the 'filled' class
+    const nameInput = document.querySelector("#name");
+    nameInput.focus();
+    nameInput.classList.add("filled"); // Ensure label remains resized
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const inputs = document.querySelectorAll(".form-input");
+
+    inputs.forEach((input) => {
+      // Store the original placeholder text in a custom attribute
+      const originalPlaceholder = input.getAttribute("placeholder");
+      input.setAttribute("data-placeholder", originalPlaceholder);
+
+      // Remove placeholder text initially
+      input.placeholder = "";
+
+      // Add placeholder on focus
+      input.addEventListener("focus", () => {
+        input.placeholder = input.getAttribute("data-placeholder");
+      });
+
+      // Remove placeholder on blur
+      input.addEventListener("blur", () => {
+        input.placeholder = "";
+      });
+    });
+
+    // Set focus to the Name input and activate its placeholder
+    const nameInput = document.querySelector("#name");
+    if (nameInput) {
+      nameInput.focus();
+      nameInput.placeholder = nameInput.getAttribute("data-placeholder");
     }
   });
-});
-// Clear form inputs and focus on the Name input on page load
-window.addEventListener("load", () => {
-  inputs.forEach((input) => {
-    input.value = ""; // Clear input values
-    input.classList.remove("filled"); // Remove 'filled' class
-  });
-  // Focus on the Name input and apply the 'filled' class
-  const nameInput = document.querySelector("#name");
-  nameInput.focus();
-  nameInput.classList.add("filled"); // Ensure label remains resized
-});
+  // progress line....
+  // Set the percentage
+  document.addEventListener('DOMContentLoaded', () => {
+    // Select all progress elements
+    document.querySelectorAll('.outer-box').forEach((outerBox) => {
+      const box = outerBox.querySelector('.box');
+      const progress = outerBox.querySelector('.progress');
 
-document.addEventListener("DOMContentLoaded", () => {
-  const inputs = document.querySelectorAll(".form-input");
+      // Extract percentage from the text inside .box
+      const percentage = parseInt(box.textContent, 10);
 
-  inputs.forEach((input) => {
-    // Store the original placeholder text in a custom attribute
-    const originalPlaceholder = input.getAttribute("placeholder");
-    input.setAttribute("data-placeholder", originalPlaceholder);
-
-    // Remove placeholder text initially
-    input.placeholder = "";
-
-    // Add placeholder on focus
-    input.addEventListener("focus", () => {
-      input.placeholder = input.getAttribute("data-placeholder");
-    });
-
-    // Remove placeholder on blur
-    input.addEventListener("blur", () => {
-      input.placeholder = "";
+      // Apply percentage as a CSS variable for smooth animation
+      setTimeout(() => {
+        progress.style.setProperty('--progress', percentage);
+      }, 300); // Delay to ensure animation starts after load
     });
   });
+</script>
+<script>
+  // Select all FAQ questions
+  const faqQuestions = document.querySelectorAll('.faq-container .question');
 
-  // Set focus to the Name input and activate its placeholder
-  const nameInput = document.querySelector("#name");
-  if (nameInput) {
-    nameInput.focus();
-    nameInput.placeholder = nameInput.getAttribute("data-placeholder");
-  }
-});
-// progress line....
-// Set the percentage
-document.addEventListener('DOMContentLoaded', () => {
-  // Select all progress elements
-  document.querySelectorAll('.outer-box').forEach((outerBox) => {
-    const box = outerBox.querySelector('.box');
-    const progress = outerBox.querySelector('.progress');
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+      // Find the parent container
+      const faqContainer = question.parentElement;
+      const answer = faqContainer.querySelector('.answercont');
+      const icon = question.querySelector('.toggle-icon');
 
-    // Extract percentage from the text inside .box
-    const percentage = parseInt(box.textContent, 10);
+      // Toggle the active state
+      if (faqContainer.classList.contains('active')) {
+        faqContainer.classList.remove('active');
+        answer.style.maxHeight = null; // Close the answer
+        icon.classList.remove('fa-chevron-up');
+        icon.classList.add('fa-chevron-down');
+      } else {
+        // Close other active containers
+        document.querySelectorAll('.faq-container.active').forEach(activeContainer => {
+          activeContainer.classList.remove('active');
+          activeContainer.querySelector('.answercont').style.maxHeight = null;
+          activeContainer.querySelector('.toggle-icon').classList.remove('fa-chevron-up');
+          activeContainer.querySelector('.toggle-icon').classList.add('fa-chevron-down');
+        });
 
-    // Apply percentage as a CSS variable for smooth animation
-    setTimeout(() => {
-      progress.style.setProperty('--progress', percentage);
-    }, 300); // Delay to ensure animation starts after load
+        // Open the clicked container
+        faqContainer.classList.add('active');
+        answer.style.maxHeight = answer.scrollHeight + 'px'; // Open the answer
+        icon.classList.remove('fa-chevron-down');
+        icon.classList.add('fa-chevron-up');
+      }
+    });
   });
-});
 </script>
 </body>
+
 </html>

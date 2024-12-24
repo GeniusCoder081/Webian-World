@@ -192,4 +192,8 @@
     padding-right: 1.25rem !important;
     font-size: 4rem !important;
   }
+  .contact-details .location-details .office-locations {
+    min-width: 250px;
+    max-width: 300px;
+  }
 }
