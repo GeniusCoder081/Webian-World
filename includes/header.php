@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./CSS/contact-us.css" />
   <link rel="stylesheet" href="../CSS/Enterprises.css">
   <link rel="stylesheet" href="../CSS/StartUp.css">
+  <link rel="stylesheet" href="../CSS/process.css">
   <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
   <link
     rel="shortcut icon"
@@ -113,7 +114,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="../Enterprises.php">Process</a>
+              <a class="nav-link " href="../Process.php">Process</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="#">About us</a>

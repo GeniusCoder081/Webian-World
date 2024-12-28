@@ -644,6 +644,10 @@ form .hover-effect1:hover{
   font-weight: 700;
   color: var(--primaryclr);
 }
+.process-list-pointer{
+  margin-right: 7px;
+  margin-top: 6px;
+}
 .toggle-icon {
   font-size: 1.25rem;
   transition: transform 0.3s;
