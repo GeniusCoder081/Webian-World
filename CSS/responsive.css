@@ -8,19 +8,6 @@
     font-size: 1.4rem;
     text-align: center;
   }
-  .banner-three-box {
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .banner-three-box,
-  .achievement-list {
-    max-width: 770px;
-    flex-wrap: wrap;
-    align-items: center;
-    column-gap: 0.5rem !important;
-    justify-content: center;
-  }
   ul {
     padding-left: 0 !important;
   }
@@ -38,98 +25,45 @@
     display: flex;
     flex-direction: column;
   }
-  .show-reel-content {
-    padding: 0.375rem;
+  .show-reel-content,.videobtn-case-icon{
+    width: 100% !important;
+    padding: 1rem 0;
+    margin: auto;
   }
   .show-reel .watch-reel-head {
+    font-size: 1rem !important;
+    width: 100% !important;
+  }
+  .videobtn-case-icon .watch-reel{
     font-size: 1.2rem !important;
-    max-width: 380px;
   }
-  .videobtn-case-icon {
+  .video-play-icon {
     position: relative;
-    width: 340px;
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 1rem;
   }
-  .upper-left-box {
-    width: 100%;
-    padding: 0 0rem;
+ .comman-heading{
+    font-size: 1.5rem !important;
   }
-  .upper-left-box h2 {
-    font-size: 2.3rem !important;
-    padding-top: 3rem;
+  .comman-para{
+    font-size: .8rem !important;
   }
-  .upper-left-box p {
-    font-size: 1.1rem !important;
-  }
-  .right-main-box {
-    margin-top: 1rem;
-  }
-  .right-main-box-one {
-    width: 100%;
-    padding: 2rem;
-    flex-direction: column;
-  }
-  .black-para {
-    font-size: 0.8rem !important;
-    padding-right: 1rem;
-  }
-  .right-main-box .right-main-box-one .inner_para {
-    min-width: 100% !important;
-    padding-top: 1rem;
-    margin-left: 0px !important;
-  }
-  .knowMore-section .knowMore-right-container {
-    min-width: 100%;
-    max-width: 100%;
-  }
-  .knowMore-section .content-knowMore {
-    padding: 2.5rem 0.75rem 0 0.75rem;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 0rem !important;
-  }
-  .knowMore-section .knowMore-left-title,
-  .knowMore-left-desc {
-    font-size: 1.5rem;
-    padding-bottom: 1rem !important;
-    max-width: 650px !important;
-  }
-  .knowMore-section .knowMore-left-title {
-    font-size: 1.5rem;
-    max-width: 650px !important;
-  }
-  .knowMore-section .knowMore-left-desc {
-    padding-top: 0rem !important;
-  }
-  .testimony-wrapper {
-    flex-direction: column;
-  }
-  .testimony-section .testimony-right-slider {
-    width: 100%;
-    margin-top: 3rem;
+  .black-box .container{
+    padding: 3rem 1.5rem;
   }
   .testimony-section .card {
     max-width: 100%;
     margin: 0;
   }
-  /* award-case-section */
-  .container-award {
-    padding: 0 0.75rem;
-  }
-  .award-recog-section .award-list {
-    flex-wrap: wrap;
-    margin-left: -0.75rem;
-  }
-  .award-card {
-    max-width: calc(100% - 12px);
-    min-width: calc(100% - 12px);
-    margin-bottom: 0.75rem;
-    margin-left: 0.75rem;
-  }
-  .award-recog-section .award-title {
-    font-size: 2rem;
+  .container-box {
+    height: 300px;
   }
   .container-insight {
     padding: 0 0.75rem;
+  }
+  .testimony-section,.case-study-section {
+    padding: 3rem 1.1rem;
   }
   .insight-wrapper .insight-slider {
     gap: 25px !important;
@@ -195,9 +129,6 @@
   ul {
     padding-left: 0 !important;
   }
-  .achievement-list {
-    column-gap: 0.5rem !important;
-  }
   .container {
     max-width: 800px !important;
   }
@@ -211,59 +142,23 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .upper-left-box h2 {
-    font-size: 2.4rem;
+  .video-play-icon {
+    margin-right: 1rem;
   }
-  .upper-left-box p {
-    font-size: 1.2rem;
-  }
-  .right-main-box {
-    margin-top: 1rem;
-  }
-  .right-main-box .right-main-box-one .inner_para {
-    min-width: 100% !important;
-    padding-top: 4rem;
-    margin-left: 0px !important;
-  }
-  .knowMore-section .content-knowMore {
-    padding: 2.5rem 0.75rem 0 0.75rem;
-    flex-wrap: wrap;
-  }
-  .knowMore-section .knowMore-right-container {
-    min-width: 100%;
-    max-width: 100%;
-  }
-  .knowMore-section .knowMore-left-title,
-  .knowMore-left-desc {
-    font-size: 1.5rem;
-  }
-  .knowMore-left-desc {
-    padding-bottom: 1rem !important;
-  }
-  .knowMore-section .content-knowMore {
-    padding: 2.5rem 2.5rem 0 2.5rem;
-  }
-  .testimony-wrapper {
-    flex-direction: column;
-  }
-  .testimony-section .testimony-right-slider {
-    width: 100%;
-    margin-top: 3rem;
-  }
+  
   .testimony-section .card {
     max-width: 100%;
     margin: 0;
   }
-  /* award-case-section */
-  .award-recog-section .award-list {
-    flex-wrap: wrap;
-    margin-left: -0.75rem;
+  /* black box  */
+  .black-box .comman-heading{
+    font-size: 2.5rem !important;
   }
-  .award-card {
-    max-width: calc(50% - 12px);
-    min-width: calc(50% - 12px);
-    margin-bottom: 0.75rem;
-    margin-left: 0.75rem;
+  .black-box .container{
+    padding: 3rem 3rem;
+  }
+  .testimony-section,.case-study-section {
+    padding: 3rem 1.1rem;
   }
   .insight-wrapper .insight-slider {
     gap: 25px !important;
@@ -316,6 +211,7 @@
     margin-left: 0;
     flex-wrap: wrap !important;
   }
+ 
   .footer-image {
     display: none;
   }
@@ -339,47 +235,6 @@
   .container {
     max-width: 900px !important;
   }
-  .upper-left-box h2 {
-    font-size: 2.6rem;
-    padding: 3rem 0rem;
-  }
-  .upper-left-box p {
-    font-size: 1.3rem;
-  }
-  .right-main-box {
-    margin-top: 1.5rem;
-  }
-  .right-main-box-one {
-    gap: 2rem;
-    padding: 3rem;
-  }
-  .right-main-box {
-    max-width: 100%;
-  }
-  .right-main-box .right-main-box-one {
-    flex-direction: column;
-    padding: 2.5rem 0;
-  }
-  .right-main-box .right-main-box-one .inner_para {
-    min-width: 100%;
-    max-width: 100% !important;
-    padding-top: 1rem;
-    margin-left: 0px !important;
-  }
-  .knowMore-section .knowMore-right-container {
-    min-width: 350px;
-    max-width: 350px;
-  }
-  .knowMore-section .knowMore-left-desc {
-    padding-bottom: 1rem;
-  }
-  .testimony-wrapper {
-    flex-direction: column;
-  }
-  .testimony-section .testimony-right-slider {
-    width: 100%;
-    margin-top: 3rem;
-  }
   .case-study-section .case-study-row {
     margin-left: -2.75rem;
     margin-right: 1.75rem;
@@ -388,17 +243,6 @@
     min-width: calc(50% - 60px);
     max-width: calc(50% - 60px);
     margin-left: 3.75rem !important;
-  }
-  /* award-case-section */
-  .award-list {
-    flex-wrap: wrap;
-    margin-left: -0.75rem;
-  }
-  .award-recog-section .award-list .award-card {
-    max-width: calc(33.3333333333% - 12px);
-    min-width: calc(33.3333333333% - 12px);
-    margin-bottom: 1.5rem;
-    margin-left: 0.75rem;
   }
   .insight-recog-section .insight-card {
     max-width: calc(33.3333333333% - 12px);
@@ -444,22 +288,19 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* know more section responsive */
-  .knowMore-section .content-knowMore {
-    padding: 2.5rem 2.5rem 0 2.5rem;
-  }
   .footer-section .interact-media-wrap .interact-media {
     margin-left: auto;
-  }
-  .right-main-box {
-    max-width: 930px !important;
   }
   .footer-section .interact-media-wrap{
     gap: 3rem !important;
   }
-}
-/* 1200px to 1366px */
-@media (min-width: 992px) and (max-width: 1280px) {
+  .videobox{
+    flex-direction: column;
+  }
+  .show-reel-content,.videobtn-case-icon{
+    width: 100% !important;
+    padding: 1rem;
+  }
   .insight-slider {
     gap: 10px !important;
     flex-wrap: wrap;
@@ -468,40 +309,5 @@
     max-width: 45%;
     min-width: 45%;
     margin-bottom: 4rem;
-  }
-}
-/* For screens between 992px and 1200px */
-@media (max-width: 1200px) {
-  .upper-left-box h2 {
-    font-size: 2.8rem;
-  }
-  .upper-left-box p {
-    font-size: 1.4rem;
-  }
-  .right-main-box {
-    margin: 0rem;
-  }
-  .right-main-box-one {
-    gap: 0rem;
-    padding: 1rem;
-  }
-  .black-para {
-    font-size: 1.4rem !important;
-  }
-  .black-head {
-    font-size: 1.5rem;
-  }
-}
-/* For screens between 1200px and 1500px */
-@media (max-width: 1500px) {
-  .upper-left-box h2 {
-    font-size: 3rem;
-  }
-  .upper-left-box p {
-    font-size: 1.5rem;
-  }
-  .right-main-box-one {
-    gap: 0rem;
-    padding: 3rem;
   }
 }

@@ -1,5 +1,4 @@
 // navbar dropdown open js.................................
-
 document.querySelectorAll('.nav-item').forEach((item) => {
   item.addEventListener('mouseenter', () => {
     const dropdown = item.querySelector('.dropdown-menu');
@@ -11,7 +10,7 @@ document.querySelectorAll('.nav-item').forEach((item) => {
     if (dropdown) dropdown.classList.remove('show');
   });
 });
-//  navbar dropdwn js End............................
+//  navbar dropdwn js End....................................................................................................................
 
 
 const watchReelText = document.querySelector(".videobtn-case-icon");
@@ -47,41 +46,14 @@ if (window.innerWidth > 768) {
     });
 }
 
-// navbar ...................................................
+// navbar ...........................................................................................................
 window.addEventListener('load', () => {
   const nav = document.querySelector('.animate-links');
   nav.classList.add('animation-start');
 });
 
 
-
-//  testimony slider.................................................
-const reviewSlider = document.getElementById('reviewSlider');
-const cardHeight = reviewSlider.querySelector('.card').offsetHeight;
-const scrollAmount = cardHeight * 2;
-let sliderInterval;
-function scrollDown() {
-  reviewSlider.scrollBy({
-    top: scrollAmount,
-    behavior: 'smooth'
-  });
-}
-const testimonySection = document.querySelector('.testimony-section');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      startAutoScroll(); 
-    } else {
-      stopAutoScroll();  
-    }
-  });
-}, { threshold: 0.5 }); 
-observer.observe(testimonySection);
-// testimony slider End............................................
-
-
-// case-study-block for auto video  playing......................................
-//  JavaScript to conditionally add the video src attribute based on screen width
+// case-study-block for auto video  playing.................................................................................................
 document.addEventListener("DOMContentLoaded", function() {
   const caseStudyBoxes = document.querySelectorAll(".case-study-box");
 
@@ -99,52 +71,41 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   });
 });
-// case-study-block for auto video  playing End.....................................
+// case-study-block for auto video  playing End.............................................................
+// FAQ section js.................................................................................................
+ const faqQuestions = document.querySelectorAll('.faq-container .question');
+ faqQuestions.forEach(question => {
+   question.addEventListener('click', () => {
+     // Find the parent container
+     const faqContainer = question.parentElement;
+     const answer = faqContainer.querySelector('.answercont');
+     const icon = question.querySelector('.toggle-icon');
 
-// FAQ section js........................................................
-document.addEventListener("DOMContentLoaded", () => {
-  const faqItems = document.querySelectorAll(".faq-container");
+     // Toggle the active state
+     if (faqContainer.classList.contains('active')) {
+       faqContainer.classList.remove('active');
+       answer.style.maxHeight = null; 
+       icon.classList.remove('fa-chevron-up');
+       icon.classList.add('fa-chevron-down');
+     } else {
+       // Close other active containers
+       document.querySelectorAll('.faq-container.active').forEach(activeContainer => {
+         activeContainer.classList.remove('active');
+         activeContainer.querySelector('.answercont').style.maxHeight = null;
+         activeContainer.querySelector('.toggle-icon').classList.remove('fa-chevron-up');
+         activeContainer.querySelector('.toggle-icon').classList.add('fa-chevron-down');
+       });
 
-  faqItems.forEach((item) => {
-    const question = item.querySelector(".question");
-    const answer = item.querySelector(".answercont");
-    const icon = item.querySelector(".toggle-icon");
-
-    question.addEventListener("click", () => {
-      // Toggle the visibility of the answer
-      answer.classList.toggle("show");
-      // Rotate the icon
-      icon.classList.toggle("rotate-icon");
-    });
-  });
-});
-
-// faq more view and less view
-document.addEventListener("DOMContentLoaded", () => {
-  const faqItems = document.querySelectorAll(".faq-container");
-  const viewMoreButton = document.querySelector(".view-cases-link");
-
-  const visibleCount = 5; // Number of FAQs to show initially
-  let isExpanded = false;
-
-  // Show initial FAQ items
-  faqItems.forEach((item, index) => {
-    if (index < visibleCount) {
-      item.classList.add("visible");
-    }
-  });
-  
-  // Toggle additional FAQ items on "View More" button click
-  viewMoreButton.addEventListener("click", () => {
-    isExpanded = !isExpanded;
-
-    faqItems.forEach((item, index) => {
-      if (index >= visibleCount) {
-        item.classList.toggle("visible", isExpanded);
-      }
-    });
-
-    viewMoreButton.textContent = isExpanded ? "View Less" : "View More";
-  });
-});
+       // Open the clicked container
+       faqContainer.classList.add('active');
+       answer.style.maxHeight = answer.scrollHeight + 'px'; // Open the answer
+       icon.classList.remove('fa-chevron-down');
+       icon.classList.add('fa-chevron-up');
+     }
+   });
+ });
 // FAQ section js End........................................................
+
+
+
+

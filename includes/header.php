@@ -5,12 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Webian World: UI UX Software Design Company</title>
-  <link rel="stylesheet" href="./CSS/style.css" />
-  <link rel="stylesheet" href="./CSS/responsive.css" />
-  <link rel="stylesheet" href="./CSS/contact-us.css" />
-  <link rel="stylesheet" href="../CSS/Enterprises.css">
-  <link rel="stylesheet" href="../CSS/StartUp.css">
-  <link rel="stylesheet" href="../CSS/process.css">
+
   <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
   <link
     rel="shortcut icon"
@@ -26,10 +21,18 @@
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="./CSS/contact-us.css" />
+  <link rel="stylesheet" href="../CSS/Enterprises.css">
+  <link rel="stylesheet" href="../CSS/StartUp.css">
+  <link rel="stylesheet" href="../CSS/process.css">
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet" href="./CSS/responsive.css" />
 </head>
 
 <body>
-  <header class="container-fluid">
+  <header class="container-fluid sticky-top">
     <nav class="navbar navbar-expand-lg py-4 py-lg-0">
       <div class="container-fluid px-lg-5 py-lg-2">
         <a class="navbar-brand fs-2" href="../index.php"><img
@@ -124,14 +127,6 @@
             </li>
           </ul>
           <div class="d-flex g-2">
-            <form
-              class="d-flex mx-4"
-              role="search"
-              action="../our-works.php">
-              <button class="btn btn-outline-warning" type="submit">
-                Portfolio
-              </button>
-            </form>
             <form
               class="d-flex mx-4"
               role="search"

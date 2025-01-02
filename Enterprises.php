@@ -215,105 +215,81 @@
    </div>
 
 </section>
-<section class="black-box container-fluid bg-white">
-   <div class="container d-flex justify-content-center flex-column">
-      <div class="upper-left-box m-auto pt-lg-5 d-flex justify-content-center flex-column">
-         <h2 class=" fs3-125 text-center text-black">
-            Our enterprise UI UX design services
-         </h2>
-         <p class=" text-center text-black">
-            Our UX UI services for enterprise applications go beyond aesthetics to optimize the user experience, streamline workflow, boost productivity, and enhance user satisfaction.
-         </p>
-      </div>
-      <div class="right-main-box m-auto">
-         <div
-            class="right-main-box-one black-boxes d-flex justify-content-between">
-            <span class="hover-effect text-black text-decoration-none">Enterprise UX audit services</span>
-            <div class="inner_para">
-               <p class="text-black black-para">
-                  Improve your enterprise user experience with our comprehensive UX audit. Our methodical approach, which includes heuristics audit, design systems audit, guidelines audit, user testing, and accessibility testing uncovers user bottlenecks and issues.
-               </p>
-               <p class="text-black  black-para">
-                  Gain valuable insights on how to increase cross-team collaboration, simplify goal completion, and minimize cognitive load. Enhance your enterprise application's user experience with our UX audit services.
-               </p>
-            </div>
-         </div>
+<section class="black-box">
+   <div class="container">
+     <div class="text-center mb-5">
+       <h2 class="text-white fs3-125">Crafting innovative UI UX designs to turn your ideas into reality.</h2>
+       <p class="text-white-50">
+         As experts in UI/UX design, we manage the entire journey, from initial research and planning to design and implementation. Our UI UX services are:
+       </p>
+     </div>
 
-         <div
-            class="right-main-box-one black-boxes d-flex justify-content-between">
-            <span class="hover-effect text-black text-decoration-none">Legacy systems UX redesign</span>
-            <div class="inner_para">
-               <p class="text-black black-para">
-                  Revolutionize your legacy systems with an award winning user experience design company. Our team has a proven track record of transforming traditional enterprise applications into modern, user-friendly systems. We understand the difficulties of changing legacy systems and the challenges of preserving existing investments.
-               </p>
-               <p class="text-black black-para">
-                  Leverage our expertise to enhance workflows, increase user productivity, and boost business revenue with minimal friction.
-               </p>
-            </div>
+     <div class="row justify-content-center">
+       <div class="col-lg-4 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="./Enterprises.php" class="service-title">UI/UX Solutions</a>
+           <p class="service-description">
+             From concept to launch, we provide comprehensive UI UX services that include research, wireframing, design, and development, all aimed at creating seamless, user-centric experiences that drive results.
+           </p>
          </div>
+       </div>
 
-         <div
-            class="right-main-box-one black-boxes d-flex justify-content-between">
-            <span class="hover-effect text-black text-decoration-none">New product UX UI design services</span>
-            <div class="inner_para">
-               <p class="text-black black-para">
-                  Maximize your enterprise software investments with our UX UI design services. In today's digital landscape, investing in well-designed software - whether it be consumer or enterprise apps - is crucial. Ensure your solutions are visually appealing, user-friendly, and deliver outstanding results with Aufait UX's expertise in UI/UX design.
-               </p>
-               <p class="text-black black-para">
-                  Our enterprise app design.services are based on extensive experience in designing applications on leading platforms, including SAP and SharePoint.
-               </p>
-            </div>
+       <div class="col-lg-4 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="./StartUp.php" class="service-title">UI/UX for Startups</a>
+           <p class="service-description">
+             We offer tailored UI/UX design services to help startups create user-centric, visually engaging, and scalable digital products, from MVP design to prototyping and user research, ensuring impactful growth and success.
+           </p>
          </div>
+       </div>
 
-         <div
-            class="right-main-box-one black-boxes d-flex justify-content-between border-0">
-            <span class="hover-effect text-black text-decoration-none">Enterprise Design systems development</span>
-            <div class="inner_para">
-               <p class="text-black black-para">
-                  Ensure consistent UI design and brand representation across all of your products with our comprehensive design system services. A well-defined design system is essential for scalable enterprise solutions. By implementing an enterprise design system, you'll empower your development team to work faster and deliver exceptional results.
-               </p>
-               <p class="text-black black-para">
-                  Streamline your enterprise product design and development with Aufait UX's enterprise design system services.
-               </p>
-            </div>
+       <div class="col-lg-4 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="#" class="service-title">UX Audit</a>
+           <p class="service-description">
+             A UX audit evaluates your product’s usability, identifying issues and opportunities for improvement to enhance user experience, efficiency, and performance with actionable recommendations.
+           </p>
          </div>
-      </div>
+       </div>
+
+       <div class="col-lg-4 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="#" class="service-title">Design System</a>
+           <p class="service-description">
+             A design system is a set of reusable components and guidelines that ensure consistency and efficiency in UI design, helping teams create cohesive and scalable user experiences across products.
+           </p>
+         </div>
+       </div>
+
+       <div class="col-lg-4 col-md-6 col-sm-12">
+         <div class="service-card card5">
+           <a href="#" class="service-title">SAP UX Design</a>
+           <p class="service-description">
+             SAP UX design enhances user experiences by simplifying workflows and creating intuitive interfaces for SAP applications, improving usability and productivity.
+           </p>
+         </div>
+       </div>
+
+       <div class="col-lg-4 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="#" class="service-title">Front-End Development</a>
+           <p class="service-description">
+             Front-end development focuses on building the visual and interactive aspects of a website or application, ensuring a seamless and engaging user experience through HTML, CSS, JavaScript, Angular and React JS.
+           </p>
+         </div>
+       </div>
+
+       <div class="col-lg-4 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="#" class="service-title">Dashboard Design</a>
+           <p class="service-description">
+             We specialize in creating intuitive and user-friendly dashboards that provide clear insights and data visualization. Our designs focus on improving usability, enhancing user engagement, and making complex data easy to interpret, helping businesses make informed decisions efficiently.
+           </p>
+         </div>
+       </div>
+     </div>
    </div>
-   <!-- <section class="container swiper">
-      <div class="card-wrapper">
-         <ul class="card-list swiper-wrapper">
-            <li class="card-item swiper-slide">
-               <a href="#" class="card-link">
-                  <img src="./assests/images/case1-box.webp" alt="" class="card-image">
-                  <h2 class="card-title">
-                     Higher productivity
-                  </h2>
-                  <p class="card-desc">Boost employee productivity by simplifying complex UI/UX workflows.</p>
-               </a>
-            </li>
-            <li class="card-item swiper-slide">
-               <a href="#" class="card-link">
-                  <img src="./assests/images/case-2.webp" alt="" class="card-image">
-                  <h2 class="card-title">
-                     Improved accuracy
-                  </h2>
-                  <p class="card-desc">Reduce errors and improve accuracy with human behavior analysis in UX design.</p>
-               </a>
-            </li>
-            <li class="card-item swiper-slide">
-               <a href="#" class="card-link">
-                  <img src="./assests/images/case-3.webp" alt="" class="card-image">
-                  <h2 class="card-title">
-                     Reduced technical debt
-                  </h2>
-                  <p class="card-desc">Lower technical debt and reduce costs associated with changes to legacy UI.</p>
-
-               </a>
-            </li>
-         </ul>
-      </div>
-   </section> -->
-</section>
+ </section>
 <section class="trusted-section">
    <div class="container">
       <div class="trusted-box d-flex flex-column justify-content-center text-center gap-lg-3">
@@ -705,83 +681,78 @@
 </section>
 <section class="insight-section">
    <div class="container-insight">
-      <div class="insight-head-box d-flex justify-content-between">
-         <h3 class="insight-title w-100 fs3-125">
-            Resorces
-         </h3>
-         <!-- <div>
-            <a
-               href="#"
-               class="hover-effect seeAll link-underline-dark text-dark fs-5">See_all</a>
-         </div> -->
-      </div>
-      <div class="insight-wrapper mt-lg-5">
-         <div
-            class="insight-slider owl-theme d-flex justify-content-between align-items-start">
-            <div class="insight-card">
-               <div class="sub-insight-card">
-                  <a href="#" class="card-detail-img d-block">
-                     <img
-                        src="./assests/images/enterprises-three-card-image-1.png"
-                        alt=""
-                        class="img-fluid d-block d-flex w-100 object-fit-cover" />
-                  </a>
-                  <div class="insight-card-desc-box pb-lg-2">
-                     <a href="#" class="insight-card-desc fs1-5 text-decoration-none">All You Need to Know About Designing for Enterprise UX</a>
-                  </div>
-                  <div class="insight-author-detail d-flex flex-column">
-                     <h4 class="author-name fs1">By Fazmeena</h4>
-                     <div class="sub-insight-author-detail d-flex gap-lg-3">
-                        <h3 class="insight-card-left">June 19,2024</h3>
-                        <h4 class="insight-card-right">18 mins read</h4>
-                     </div>
-                  </div>
+     <div class="insight-head-box d-flex justify-content-between">
+       <h3 class="insight-title w-100 fs3-125">
+         Read insightful articles from UI UX experts
+       </h3>
+     </div>
+     <div class="insight-wrapper mt-lg-5">
+       <div
+         class="insight-slider owl-theme d-flex justify-content-between align-items-start">
+         <div class="insight-card card">
+           <div class="sub-insight-card card-footer">
+             <a href="#" class="card-detail-img d-block">
+               <img
+                 src="./assests/images/dashboard-design-principles.jpg"
+                 alt=""
+                 class="img-fluid d-block d-flex w-100 object-fit-cover" />
+             </a>
+             <div class="insight-card-desc-box pb-lg-2">
+               <a href="#" class="insight-card-desc fs1-5 text-decoration-none">Top 23 Must-Know Dashboard UI/UX Design principles</a>
+             </div>
+             <div class="insight-author-detail d-flex flex-column">
+               <h4 class="author-name fs1">By Fazmeena</h4>
+               <div class="sub-insight-author-detail d-flex gap-lg-3">
+                 <h3 class="insight-card-left">June 19,2024</h3>
+                 <h4 class="insight-card-right">18 mins read</h4>
                </div>
-            </div>
-            <div class="insight-card">
-               <div class="sub-insight-card">
-                  <a href="#" class="card-detail-img d-block">
-                     <img
-                        src="./assests/images/enterprises-three-card-image-1.webp"
-                        alt=""
-                        class="img-fluid d-block d-flex w-100 object-fit-cover" />
-                  </a>
-                  <div class="insight-card-desc-box pb-lg-2">
-                     <a href="#" class="insight-card-desc fs1-5 text-decoration-none">How UX Audit enabled 100% revenue increase of digital marketplaces</a>
-                  </div>
-                  <div class="insight-author-detail d-flex flex-column">
-                     <h4 class="author-name fs1">By Fathima</h4>
-                     <div class="sub-insight-author-detail d-flex gap-lg-3">
-                        <h3 class="insight-card-left">November 24, 2023</h3>
-                        <h4 class="insight-card-right">10 mins read</h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="insight-card">
-               <div class="sub-insight-card">
-                  <a href="#" class="card-detail-img d-block">
-                     <img
-                        src="./assests/images/enterprises-three-card-image-3.png"
-                        alt=""
-                        class="img-fluid d-block d-flex w-100 object-fit-cover" />
-                  </a>
-                  <div class="insight-card-desc-box pb-lg-2">
-                     <a href="#" class="insight-card-desc fs1-5 text-decoration-none">Design Systems Guide: Types, Benefits, Elements and Examples</a>
-                  </div>
-                  <div class="insight-author-detail d-flex flex-column">
-                     <h4 class="author-name fs1">By Fazmeena</h4>
-                     <div class="sub-insight-author-detail d-flex gap-lg-3">
-                        <h3 class="insight-card-left">November 11, 2021</h3>
-                        <h4 class="insight-card-right">8 mins read</h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
+             </div>
+           </div>
          </div>
-      </div>
+         <div class="insight-card card">
+           <div class="sub-insight-card card-footer">
+             <a href="#" class="card-detail-img d-block">
+               <img
+                 src="./assests/images/insight--two.webp"
+                 alt=""
+                 class="img-fluid d-block d-flex w-100 object-fit-cover" />
+             </a>
+             <div class="insight-card-desc-box pb-lg-2">
+               <a href="#" class="insight-card-desc fs1-5 text-decoration-none">A Step by Step Guide to UI/UX Design Process</a>
+             </div>
+             <div class="insight-author-detail d-flex flex-column">
+               <h4 class="author-name fs1">By Fathima</h4>
+               <div class="sub-insight-author-detail d-flex gap-lg-3">
+                 <h3 class="insight-card-left">November 24, 2023</h3>
+                 <h4 class="insight-card-right">10 mins read</h4>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="insight-card card">
+           <div class="sub-insight-card card-footer">
+             <a href="#" class="card-detail-img d-block">
+               <img
+                 src="./assests/images/insight-three.webp"
+                 alt=""
+                 class="img-fluid d-block d-flex w-100 object-fit-cover" />
+             </a>
+             <div class="insight-card-desc-box pb-lg-2">
+               <a href="#" class="insight-card-desc fs1-5 text-decoration-none">11 Best Practices on Filters UI Design</a>
+             </div>
+             <div class="insight-author-detail d-flex flex-column">
+               <h4 class="author-name fs1">By Fazmeena</h4>
+               <div class="sub-insight-author-detail d-flex gap-lg-3">
+                 <h3 class="insight-card-left">November 11, 2021</h3>
+                 <h4 class="insight-card-right">8 mins read</h4>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
    </div>
-</section>
+ </section>
 <section class="FAQ-section">
    <div class="container-faq">
       <div class="heading-box">

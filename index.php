@@ -7,30 +7,11 @@
        <div
          class="inner-box m-auto w-100 text-center d-flex flex-column justify-content-center">
          <h1 class="banner-title fw-semibold mt-4">
-           UI UX agency designing products users love
+           Innovative UI UX Solutions for Modern Businesses
          </h1>
          <p class="banner-desc pt-lg-3 m-lg-auto m-md-auto mb-4 mt-4">
-           Crafting UX designs that blend user needs with business goals
+           Connecting businesses and users through great design
          </p>
-         <div class="banner-three-box d-flex justify-content-center">
-           <ul class="achievement-list d-flex">
-             <li
-               class="achievement-item position-relative d-flex flex-column justify-content-center align-items-center">
-               <h2 class="fs1">DNA Paris Design Awards Winner, 2023</h2>
-               <p>- DNA Paris -</p>
-             </li>
-             <li
-               class="achievement-item position-relative d-flex flex-column justify-content-center align-items-center">
-               <h2 class="fs1">Indigo Design Awards 2023 Silver Winner</h2>
-               <p>- Indigo -</p>
-             </li>
-             <li
-               class="achievement-item position-relative d-flex flex-column justify-content-center align-items-center">
-               <h2 class="fs1">Top 5 UX Agencies India 2023</h2>
-               <p>- Clutch -</p>
-             </li>
-           </ul>
-         </div>
          <div
            class="contactUs-box d-flex m-lg-auto m-md-auto mt-lg-3 mt-3 mb-3">
            <form
@@ -50,165 +31,23 @@
            </a>
          </div>
        </div>
-       <div class="client-content">
-         <div class="client-wrapper swiper">
-           <div class="client-wrappers d-flex flex-column" id="clientSlider">
-             <div
-               class="row swiper-slider mt-lg-5 d-flex flex-wrap justify-content-center">
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src="./assests/images/micro.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="Micrsoft Logo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/aramco-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="Aramco Logo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/panther-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="Panther Logo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/damac-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="Damac Logo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/oman-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="Oman Logo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/roca-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="Roca Logo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/rpg-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="Rpg Logo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/embassy-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="EmbassyLogo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/elasticrun-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="ElasticrunLogo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/cookies-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="Cookies Logo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/legrand-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="Legrand Logo" />
-                 </div>
-               </div>
-               <div
-                 class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
-                 <div class="clients-img">
-                   <img
-                     src=" ./assests/images/hp-logo.svg"
-                     loading="lazy"
-                     class="img-fluid d-block"
-                     alt="HP Logo" />
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
      </div>
    </div>
  </section>
  <section class="show-reel container-fluid">
    <div
      class="container container-box m-auto d-flex text-center align-items-center flex-column">
-     <div class="videobox m-auto">
-       <div class="show-reel-content d-flex text-center align-items-center">
+     <div class="videobox m-auto d-flex row">
+       <div class="show-reel-content d-flex text-center align-items-center col-lg-8 ">
          <h2 class="px-lg-3 fw-bolder fs-1 watch-reel-head">
-           We are a UI UX design company based in India, crafting
-           research-driven, conversion-oriented & user-friendly digital
-           products.
+           As a growing UI/UX design company in India, we blend creativity and strategy to craft user-friendly and goal-oriented interfaces.
          </h2>
        </div>
        <div
-         class="videobtn-case-icon m-auto text-center justify-content-center d-flex align-items-center mt-lg-5">
-         <!-- <svg
-              width="73"
-              height="72"
-              viewBox="0 0 73 72"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M36.5 4.5C19.1047 4.5 5 18.6047 5 36C5 53.3953 19.1047 67.5 36.5 67.5C53.8953 67.5 68 53.3953 68 36C68 18.6047 53.8953 4.5 36.5 4.5ZM46.632 36.4852L31.2758 47.6578C31.1916 47.7183 31.0924 47.7544 30.989 47.7622C30.8856 47.77 30.7821 47.7491 30.6898 47.7019C30.5975 47.6546 30.52 47.5829 30.4659 47.4945C30.4117 47.4061 30.383 47.3045 30.3828 47.2008V24.8695C30.3825 24.7657 30.4109 24.6637 30.465 24.575C30.519 24.4863 30.5966 24.4143 30.689 24.367C30.7815 24.3196 30.8853 24.2988 30.9888 24.3069C31.0924 24.3149 31.1917 24.3515 31.2758 24.4125L46.632 35.5781C46.7046 35.6294 46.7638 35.6974 46.8046 35.7763C46.8455 35.8552 46.8668 35.9428 46.8668 36.0316C46.8668 36.1205 46.8455 36.2081 46.8046 36.287C46.7638 36.3659 46.7046 36.4339 46.632 36.4852Z"
-                fill="#F25D7D"
-              />
-            </svg> -->
+         class="videobtn-case-icon m-auto text-center justify-content-center d-flex align-items-center col-lg-4">
+
          <span class="video-play-icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-play" style="color: #ffffff;"></i></span>
-         <span class="fs-4 mx-lg-4 mx-3 watch-reel">
+         <span class="fs-4 mx-lg-4 mx-md-4  watch-reel">
            <span> Watch our show reel</span> <i class="fa-solid fa-chevron-right"></i>
          </span>
          <div
@@ -226,453 +65,333 @@
      </div>
    </div>
  </section>
- <section class="black-box container-fluid">
-   <div class="container d-flex justify-content-center flex-column">
-     <div class="upper-left-box m-auto pt-lg-5 d-flex justify-content-center flex-column">
-       <h2 class="text-white fs3-125 text-center">
-         UI UX design services to bring your product vision to life
-       </h2>
-       <p class="text-white text-center">
-         As a UI UX design company, we provide end-to-end UI UX services
-         including research, wireframing, UI design and development. Our UI
-         UX services:
+ <section class="black-box">
+   <div class="container">
+     <div class="text-center mb-5">
+       <h2 class="text-white fs3-125 comman-heading">Crafting innovative UI UX designs to turn your ideas into reality.</h2>
+       <p class="text-white-50 comman-para">
+         As experts in UI/UX design, we manage the entire journey, from initial research and planning to design and implementation. Our UI UX services are:
        </p>
      </div>
-     <div class="right-main-box m-auto">
-       <div
-         class="right-main-box-one black-boxes d-flex justify-content-between">
-         <a href="./Enterprises.php" class="hover-effect text-white">Enterprise_UX</a>
-         <div class="inner_para">
-           <p class="text-white black-para">
-             Full range of enterprise application UX UI design services
-             including legacy systems redesign, new product design, design
-             systems implementation and Enterprise UX audit.
+
+     <div class="row">
+       <div class="col-lg-6 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="./Enterprises.php" class="service-title">UI/UX Solutions</a>
+           <p class="service-description">
+             From concept to launch, we provide comprehensive UI UX services that include research, wireframing, design, and development, all aimed at creating seamless, user-centric experiences that drive results.
            </p>
          </div>
        </div>
 
-       <div
-         class="right-main-box-one black-boxes d-flex justify-content-between">
-         <a href="./StartUp.php" class="hover-effect text-white">UX_for_startups</a>
-         <div class="inner_para">
-           <p class="text-white black-para">
-             Full range of enterprise application UX UI design services
-             including legacy systems redesign, new product design, design
-             systems implementation and Enterprise UX audit.
+       <div class="col-lg-6 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="./StartUp.php" class="service-title">UI/UX for Startups</a>
+           <p class="service-description">
+             We offer tailored UI/UX design services to help startups create user-centric, visually engaging, and scalable digital products, from MVP design to prototyping and user research, ensuring impactful growth and success.
            </p>
          </div>
        </div>
 
-       <div
-         class="right-main-box-one black-boxes d-flex justify-content-between">
-         <a href="#" class="hover-effect text-white">UX_audit</a>
-         <div class="inner_para">
-           <p class="text-white black-para">
-             Full range of enterprise application UX UI design services
-             including legacy systems redesign, new product design, design
-             systems implementation and Enterprise UX audit.
+       <div class="col-lg-6 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="#" class="service-title">UX Audit</a>
+           <p class="service-description">
+             A UX audit evaluates your product’s usability, identifying issues and opportunities for improvement to enhance user experience, efficiency, and performance with actionable recommendations.
            </p>
          </div>
        </div>
 
-       <div
-         class="right-main-box-one black-boxes d-flex justify-content-between">
-         <a href="#" class="hover-effect text-white">Design_systems</a>
-         <div class="inner_para">
-           <p class="text-white black-para">
-             Full range of enterprise application UX UI design services
-             including legacy systems redesign, new product design, design
-             systems implementation and Enterprise UX audit.
+       <div class="col-lg-6 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="#" class="service-title">Design System</a>
+           <p class="service-description">
+             A design system is a set of reusable components and guidelines that ensure consistency and efficiency in UI design, helping teams create cohesive and scalable user experiences across products.
            </p>
          </div>
        </div>
 
-       <div
-         class="right-main-box-one black-boxes d-flex justify-content-between">
-         <a href="#" class="hover-effect text-white">SAP_UX_design</a>
-         <div class="inner_para">
-           <p class="text-white black-para">
-             Full range of enterprise application UX UI design services
-             including legacy systems redesign, new product design, design
-             systems implementation and Enterprise UX audit.
+       <div class="col-lg-6 col-md-6 col-sm-12">
+         <div class="service-card card5">
+           <a href="#" class="service-title">SAP UX Design</a>
+           <p class="service-description">
+             SAP UX design enhances user experiences by simplifying workflows and creating intuitive interfaces for SAP applications, improving usability and productivity.
            </p>
          </div>
        </div>
 
-       <div
-         class="right-main-box-one black-boxes d-flex justify-content-between">
-         <a href="#" class="hover-effect text-white">Front_end_development</a>
-         <div class="inner_para">
-           <p class="text-white black-para">
-             Full range of enterprise application UX UI design services
-             including legacy systems redesign, new product design, design
-             systems implementation and Enterprise UX audit.
+       <div class="col-lg-6 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="#" class="service-title">Front-End Development</a>
+           <p class="service-description">
+             Front-end development focuses on building the visual and interactive aspects of a website or application, ensuring a seamless and engaging user experience through HTML, CSS, JavaScript, Angular and React JS.
            </p>
          </div>
        </div>
 
-       <div
-         class="right-main-box-one black-boxes d-flex justify-content-between">
-         <a href="#" class="hover-effect text-white">Dashboard_design</a>
-         <div class="inner_para">
-           <p class="text-white black-para">
-             Full range of enterprise application UX UI design services
-             including legacy systems redesign, new product design, design
-             systems implementation and Enterprise UX audit.
+       <div class="col-lg-6 col-md-6 col-sm-12">
+         <div class="service-card">
+           <a href="#" class="service-title">Dashboard Design</a>
+           <p class="service-description">
+             We specialize in creating intuitive and user-friendly dashboards that provide clear insights and data visualization. Our designs focus on improving usability, enhancing user engagement, and making complex data easy to interpret, helping businesses make informed decisions efficiently.
            </p>
          </div>
        </div>
      </div>
    </div>
-   <section class="knowMore-section">
-     <div class="container">
-       <div class="content-knowMore d-flex">
-         <div class="knowMore-left-container">
-           <h3 class="knowMore-left-title text-white">
-             Corporate Design Workshop to Upskill your Developers
-           </h3>
-           <p class="knowMore-left-desc text-white">
-             Hands on design workshops led by expert UI UX designers.Limited
-             slots available!
-           </p>
-           <div class="knowMore-button d-flex align-items-center">
-             <a href="#" class="knowmore-clr  text-white">Know more</a>
-           </div>
-         </div>
-         <div class="knowMore-right-container">
-           <img
-             src="./assests/images/index-workshop.svg"
-             class="knowMore-img img-fluid w-100 d-block"
-             alt=" work shop page img" />
-         </div>
-       </div>
-     </div>
-   </section>
  </section>
- <section class="testimony-section">
+ <!-- <section class="testimony-section">
    <div class="container">
-     <div class="testimony-wrapper d-flex justify-content-between">
-       <div class="testimony-left-content">
-         <div
-           class="testimony-content-area position-sticky mh-100 h-100 top-100 pt-lg-1">
-           <h3 class="testimony-left-title fs3-125 text-dark fw-bold">
-             Words of praise from our clients
-           </h3>
-           <p class="testimony-left-desc fs1-5">
-             Listen to what our clients share about their experience working
-             with our award-winning UX design company.
-           </p>
-           <div class="clutch-box">
-             <div
-               class="clutch-content d-flex flex-row gap-lg-3 gap-md-3 gap-3">
-               <div class="clutch-left position-relative d-flex flex-column">
-                 <h5>REVIEWED ON</h5>
-                 <h3>Clutch</h3>
-                 <div class="dot position-absolute rounded-circle"></div>
+     <div class="text-center mb-5">
+       <h2 class="fw-bold text-dark fs3-125 comman-heading">Words of praise from our clients</h2>
+       <p class="text-muted comman-para">Listen to what our clients share about their experience working with our award-winning UX design company.</p>
+     </div>
+     <div class="row gy-4">
+       <div class="col-md-3">
+
+         <div class="card h-100 shadow-sm">
+           <div class="card-body">
+             <div class="d-flex align-items-center mb-3">
+               <div class="review-rate text-primary fw-bold fs-4 me-2">5.0</div>
+               <div class="star-box">
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
                </div>
-               <div
-                 class="clutch-right d-flex flex-column gap-lg-3 gap-md-3 gap-3">
-                 <div class="d-flex">
-                   <i class="fa-solid fa-star" style="color: #4154F1"></i>
-                   <i class="fa-solid fa-star" style="color: #4154F1"></i>
-                   <i class="fa-solid fa-star" style="color: #4154F1"></i>
-                   <i class="fa-solid fa-star" style="color: #4154F1"></i>
-                   <i class="fa-solid fa-star" style="color: #4154F1"></i>
-                 </div>
-                 <h5>29 REVIEWS</h5>
+             </div>
+             <p class="card-text">They made sure that both teams were on the same page throughout the collaboration. The team was receptive to
+               changes and adapted the designs to the company's needs.</p>
+             <div class="d-flex align-items-center mt-3">
+               <div>
+                 <h5 class="mb-0 fw-bold">Keaneau Donovan</h5>
+                 <small class="text-muted">BaseTwo Capital Ltd.</small>
+               </div>
+               <div class="ms-auto">
+                 <img src="./assests/icons/base-two.svg" alt="BaseTwo Logo" width="50">
                </div>
              </div>
            </div>
          </div>
        </div>
-       <div
-         class="testimony-right-slider owl-theme client-slider d-flex"
-         id="reviewSlider">
-         <div class="card">
-           <a
-             href="#"
-             class="review-link d-block p-lg-3 p-md-3 p-3"
-             target="_blank"
-             rel="noopener noreferrer">
-             <div class="review-rating d-flex align-items-center">
-               <p class="review-rate me-lg-2 fw-bold text-dark text-center">
-                 5.0
-               </p>
-               <span class="star-box d-flex">
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-               </span>
+
+       <div class="col-md-3">
+
+         <div class="card h-100 shadow-sm">
+           <div class="card-body">
+             <div class="d-flex align-items-center mb-3">
+               <div class="review-rate text-primary fw-bold fs-4 me-2">5.0</div>
+               <div class="star-box">
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+               </div>
              </div>
-             <h3 class="review-box-desc">
-               They made sure that both teams were on the same page
-               throughout the collaboration. The team was receptive to
-               changes and adapted the designs to the company's needs.
-             </h3>
-             <div class="client-info">
-               <h4 class="client-name fw-bold">Keaneau Donovan</h4>
-               <p class="client-comp fs1">BaseTwo Capital Ltd.</p>
+             <p class="card-text">Webian UX is a small and flexible team with a blend of
+             creative and technical skills.</p>
+             <div class="d-flex align-items-center mt-3">
+               <div>
+                 <h5 class="mb-0 fw-bold">Sharada Iyerr</h5>
+                 <small class="text-muted">Oman Air</small>
+               </div>
+               <div class="ms-auto">
+                 <img src="./assests/icons/oman-logo.svg" alt="Oman Air Logo" width="50">
+               </div>
              </div>
-             <div class="logo-box">
-               <img src="./assests/icons/base-two.svg" width="70px" alt="" />
-             </div>
-           </a>
+           </div>
          </div>
-         <div class="card">
-           <a
-             href="#"
-             class="review-link d-block p-lg-3 p-md-3 p-3"
-             target="_blank"
-             rel="noopener noreferrer">
-             <div class="review-rating d-flex align-items-center">
-               <p class="review-rate me-lg-2 fw-bold text-dark text-center">
-                 5.0
-               </p>
-               <span class="star-box d-flex">
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-               </span>
+       </div>
+
+       <div class="col-md-3">
+
+         <div class="card h-100 shadow-sm">
+           <div class="card-body">
+             <div class="d-flex align-items-center mb-3">
+               <div class="review-rate text-primary fw-bold fs-4 me-2">5.0</div>
+               <div class="star-box">
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+               </div>
              </div>
-             <h3 class="review-box-desc">
-               Webian UX is a small and flexible team with a blend of
-               creative and technical skills.
-             </h3>
-             <div class="client-info">
-               <h4 class="client-name fw-bold">Sharada Iyerr</h4>
-               <p class="client-comp">Oman Air</p>
-             </div>
-             <div class="logo-box">
-               <img
-                 src="./assests/icons/oman-logo.svg"
-                 width="100px"
-                 alt="" />
-             </div>
-           </a>
-         </div>
-         <div class="card">
-           <a
-             href="#"
-             class="review-link d-block p-lg-3 p-md-3 p-3"
-             target="_blank"
-             rel="noopener noreferrer">
-             <div class="review-rating d-flex align-items-center">
-               <p class="review-rate me-lg-2 fw-bold text-dark text-center">
-                 5.0
-               </p>
-               <span class="star-box d-flex">
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-               </span>
-             </div>
-             <h3 class="review-box-desc">
-               We were able to acquire : new customers with lesser friction
+             <p class="card-text">We were able to acquire : new customers with lesser friction
                due to the impressive interface and usability of the
-               application.
-             </h3>
-             <div class="client-info">
-               <h4 class="client-name fw-bold">Vishal Jain</h4>
-               <p class="client-comp">IQnext</p>
+               application.</p>
+             <div class="d-flex align-items-center mt-3">
+               <div>
+                 <h5 class="mb-0 fw-bold">Vishal Jain</h5>
+                 <small class="text-muted">IQnext</small>
+               </div>
+               <div class="ms-auto">
+                 <img src="./assests/icons/iqnext-logo.svg" alt="IQnext Logo" width="50">
+               </div>
              </div>
-             <div class="logo-box">
-               <img
-                 src="./assests/icons/iqnext-logo.svg"
-                 width="70px"
-                 alt="" />
-             </div>
-           </a>
+           </div>
          </div>
-         <div class="card">
-           <a
-             href="#"
-             class="review-link d-block p-lg-3 p-md-3 p-3"
-             target="_blank"
-             rel="noopener noreferrer">
-             <div class="review-rating d-flex align-items-center">
-               <p class="review-rate me-lg-2 fw-bold text-dark text-center">
-                 4.5
-               </p>
-               <span class="star-box d-flex">
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star-half " style="color: #4154f1;"></i>
-               </span>
+       </div>
+       <div class="col-md-3">
+
+         <div class="card h-100 shadow-sm">
+           <div class="card-body">
+             <div class="d-flex align-items-center mb-3">
+               <div class="review-rate text-primary fw-bold fs-4 me-2">5.0</div>
+               <div class="star-box">
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+               </div>
              </div>
-             <h3 class="review-box-desc">
-               Their understanding of our needs, the brainstorming &
-               insights, and the constant communication was impressive.
-             </h3>
-             <div class="client-info">
-               <h4 class="client-name fw-bold">Eyerus Teshome</h4>
-               <p class="client-comp">Tracking Owl</p>
+             <p class="card-text">Webian UX delivered exceptional results, creating a seamless and intuitive user interface that exceeded our expectations.</p>
+             <div class="d-flex align-items-center mt-3">
+               <div>
+                 <h5 class="mb-0 fw-bold">Eyerus Teshome</h5>
+                 <small class="text-muted">Tracking Owl</small>
+               </div>
+               <div class="ms-auto">
+                 <img src="./assests/icons/owl-track-logo.webp" alt="owl-tracking" width="50">
+               </div>
              </div>
-             <div class="logo-box">
-               <img
-                 src="./assests/icons/owl-track-logo.webp"
-                 width="50px"
-                 alt="" />
-             </div>
-           </a>
+           </div>
          </div>
-         <div class="card">
-           <a
-             href="#"
-             class="review-link d-block p-lg-3 p-md-3 p-3"
-             target="_blank"
-             rel="noopener noreferrer">
-             <div class="review-rating d-flex align-items-center">
-               <p class="review-rate me-lg-2 fw-bold text-dark text-center">
-                 5.0
-               </p>
-               <span class="star-box d-flex">
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-               </span>
+       </div>
+
+       <div class="col-md-3">
+
+         <div class="card h-100 shadow-sm">
+           <div class="card-body">
+             <div class="d-flex align-items-center mb-3">
+               <div class="review-rate text-primary fw-bold fs-4 me-2">5.0</div>
+               <div class="star-box">
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+               </div>
              </div>
-             <h3 class="review-box-desc">
-               The people working in Webian are not just about doing their
+             <p class="card-text">Their understanding of our needs, the brainstorming &
+             insights, and the constant communication was impressive.</p>
+             <div class="d-flex align-items-center mt-3">
+               <div>
+                 <h5 class="mb-0 fw-bold">Director</h5>
+                 <small class="text-muted">Contracing Plus</small>
+               </div>
+               <div class="ms-auto">
+                 <img src="./assests/icons/cplus.svg" alt="cplus" width="50">
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-md-3">
+
+         <div class="card h-100 shadow-sm">
+           <div class="card-body">
+             <div class="d-flex align-items-center mb-3">
+               <div class="review-rate text-primary fw-bold fs-4 me-2">5.0</div>
+               <div class="star-box">
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+               </div>
+             </div>
+             <p class="card-text"> The people working in Webian are not just about doing their
                job and delivering, they are unique in their ability to
                communicate well, build rapport and have continuously great
-               engagement. They have a great company culture.
-             </h3>
-             <div class="client-info">
-               <h4 class="client-name fw-bold">Director</h4>
-               <p class="client-comp">Contracting Plus</p>
+               engagement. They have a great company culture.</p>
+             <div class="d-flex align-items-center mt-3">
+               <div>
+                 <h5 class="mb-0 fw-bold">Jophy Joy</h5>
+                 <small class="text-muted">Commerce Platform</small>
+               </div>
+               <div class="ms-auto">
+                 <img src="./assests/icons/elasticrun-logo.svg" alt="elasticrun-logo" width="50">
+               </div>
              </div>
-             <div class="logo-box">
-               <img src="./assests/icons/cplus.svg" width="100px" alt="" />
-             </div>
-           </a>
+           </div>
          </div>
-         <div class="card">
-           <a
-             href="#"
-             class="review-link d-block p-lg-3 p-md-3 p-3"
-             target="_blank"
-             rel="noopener noreferrer">
-             <div class="review-rating d-flex align-items-center">
-               <p class="review-rate me-lg-2 fw-bold text-dark text-center">
-                 5.0
-               </p>
-               <span class="star-box d-flex">
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-               </span>
+       </div>
+       <div class="col-md-3">
+
+         <div class="card h-100 shadow-sm">
+           <div class="card-body">
+             <div class="d-flex align-items-center mb-3">
+               <div class="review-rate text-primary fw-bold fs-4 me-2">5.0</div>
+               <div class="star-box">
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+               </div>
              </div>
-             <h3 class="review-box-desc">
-               Many of our clients have expressed their positive feedback on
+             <p class="card-text">Many of our clients have expressed their positive feedback on
                our platform and Webian UX's work has helped us create an
-               easy- to-use and user-friendly platform.
-             </h3>
-             <div class="client-info">
-               <h4 class="client-name fw-bold">Jophy Joy</h4>
-               <p class="client-comp">B2B E-Commerce Platform</p>
+               easy- to-use and user-friendly platform.</p>
+             <div class="d-flex align-items-center mt-3">
+               <div>
+                 <h5 class="mb-0 fw-bold">Suhaib Taqvi</h5>
+                 <small class="text-muted">Examina+</small>
+               </div>
+               <div class="ms-auto">
+                 <img src="./assests/icons/examina-logo.webp" alt="examina-logo" width="50">
+               </div>
              </div>
-             <div class="logo-box">
-               <img
-                 src="./assests/icons/elasticrun-logo.svg"
-                 width="95px"
-                 alt="" />
-             </div>
-           </a>
+           </div>
          </div>
-         <div class="card">
-           <a
-             href="#"
-             class="review-link d-block p-lg-3 p-md-3 p-3"
-             target="_blank"
-             rel="noopener noreferrer">
-             <div class="review-rating d-flex align-items-center">
-               <p class="review-rate me-lg-2 fw-bold text-dark text-center">
-                 5.0
-               </p>
-               <span class="star-box d-flex">
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-               </span>
+       </div>
+
+       <div class="col-md-3">
+
+         <div class="card h-100 shadow-sm">
+           <div class="card-body">
+             <div class="d-flex align-items-center mb-3">
+               <div class="review-rate text-primary fw-bold fs-4 me-2">5.0</div>
+               <div class="star-box">
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+                 <i class="fa-solid fa-star text-warning"></i>
+               </div>
              </div>
-             <h3 class="review-box-desc">
-               There was significant value generated from Webian UX's work
-               and am hoping to re- engage in one of the future projects.
-             </h3>
-             <div class="client-info">
-               <h4 class="client-name fw-bold">Suhaib Taqvi</h4>
-               <p class="client-comp">Examina+</p>
+             <p class="card-text">There was significant value generated from Webian UX's work
+             and am hoping to re- engage in one of the future projects.</p>
+             <div class="d-flex align-items-center mt-3">
+               <div>
+                 <h5 class="mb-0 fw-bold">Mohan Ramaseshan</h5>
+                 <small class="text-muted">BiCXO</small>
+               </div>
+               <div class="ms-auto">
+                 <img src="./assests/icons/bicxo-logo.webp" alt="IQnext Logo" width="50">
+               </div>
              </div>
-             <div class="logo-box">
-               <img
-                 src="./assests/icons/examina-logo.webp"
-                 width="90px"
-                 alt="" />
-             </div>
-           </a>
-         </div>
-         <div class="card">
-           <a
-             href="#"
-             class="review-link d-block p-lg-3 p-md-3 p-3"
-             target="_blank"
-             rel="noopener noreferrer">
-             <div class="review-rating d-flex align-items-center">
-               <p class="review-rate me-lg-2 fw-bold text-dark text-center">
-                 4.5
-               </p>
-               <span class="star-box d-flex">
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-                 <i class="fa-solid fa-star" style="color: #4154f1;"></i>
-               </span>
-             </div>
-             <h3 class="review-box-desc">
-               We were impressed with their creative skills and ability to
-               understand complex customer requirements.
-             </h3>
-             <div class="client-info">
-               <h4 class="client-name fw-bold">Mohan Ramaseshan</h4>
-               <p class="client-comp">BiCXO</p>
-             </div>
-             <div class="logo-box">
-               <img
-                 src="./assests/icons/bicxo-logo.webp"
-                 width="72px"
-                 alt="" />
-             </div>
-           </a>
+           </div>
          </div>
        </div>
      </div>
    </div>
- </section>
+ </section> -->
  <section class="case-study-section">
    <div class="container">
      <div class="case-study-wrapper">
        <div class="case-study-heading-block">
-         <h3 class="case-study-heading fs3-125">
+         <h3 class="case-study-heading fs3-125 comman-heading">
            Our UX designs that drive business growth for clients
          </h3>
        </div>
-       <div class="case-study-row d-flex flex-wrap justify-content-between">
-         <div class="case-study-box">
+       <div class="case-study-row d-flex flex-wrap justify-content-between ">
+         <div class="case-study-box shadow card card-footer card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -695,7 +414,7 @@
                  src="./assests/video/case001.mp4"></video>
              </div>
            </a>
-           <h4 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
+           <h4 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3 ">
              Online Plane Tickets booking platform
            </h4>
            <a
@@ -707,7 +426,7 @@
              Experience luxury with AirClass! Book business class flights and premium airline tickets for seamless, comfortable, worldwide travel.
            </p>
          </div>
-         <div class="case-study-box">
+         <div class="case-study-box shadow card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -743,7 +462,7 @@
              make stock education and investment simple and engaging.
            </p>
          </div>
-         <div class="case-study-box">
+         <div class="case-study-box shadow card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -779,7 +498,7 @@
              create a seamless shopping experience & improve sales.
            </p>
          </div>
-         <div class="case-study-box">
+         <div class="case-study-box shadow card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -815,7 +534,7 @@
              under the Govt. of India to facilitate data accessing & sharing.
            </p>
          </div>
-         <div class="case-study-box">
+         <div class="case-study-box shadow card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -851,7 +570,7 @@
              encourage user interactions and increase user engagement.
            </p>
          </div>
-         <div class="case-study-box">
+         <div class="case-study-box shadow card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -900,119 +619,157 @@
      </div>
    </div>
  </section>
- <!-- <section class="award-recog-section">
-      <div class="container-award">
-        <div class="award-container">
-          <h2 class="award-title text-black fs3-125">Awards & Recognitions</h2>
-          <ul class="award-list d-flex list-unstyled">
-            <li class="award-card bg-white">
-              <a
-                href="#"
-                class="award-list-link d-flex text-center justify-content-center d-block"
-              >
-                <div class="award-img-box d-flex justify-content-center">
-                  <img src="./assests/images/dna-award.webp" alt="" />
-                </div>
-                <div class="award-content">
-                  <h3 class="award-card-head fs1-5  pt-md-3 pt-3 pt-lg-4">DNA</h3>
-                  <p class="award-card-desc fs1">Winner in User Interface Design</p>
-                </div>
-              </a>
-            </li>
-            <li class="award-card bg-white">
-              <a
-                href="#"
-                class="award-list-link d-flex text-center justify-content-center d-block"
-              >
-                <div class="award-img-box d-flex justify-content-center">
-                  <img
-                    src="./assests/images/clutch-award.webp"
-                    alt="imgwfgqw"
-                  />
-                </div>
-                <div class="award-content">
-                  <h3 class="award-card-head fs1-5  pt-md-3 pt-3 pt-lg-4">Clutch</h3>
-                  <p class="award-card-desc">
-                    Top 10 user Experience company India,2023
-                  </p>
-                </div>
-              </a>
-            </li>
-            <li class="award-card bg-white">
-              <a
-                href="#"
-                class="award-list-link d-flex text-center justify-content-center d-block"
-              >
-                <div class="award-img-box d-flex justify-content-center">
-                  <img src="./assests/images/indigo-award.webp" alt="" />
-                </div>
-                <div class="award-content">
-                  <h3 class="award-card-head fs1-5  pt-md-3 pt-3 pt-lg-4">Indigo</h3>
-                  <p class="award-card-desc">
-                    Silver Awards for UX,interface & Navigation
-                  </p>
-                </div>
-              </a>
-            </li>
-            <li class="award-card bg-white">
-              <a
-                href="#"
-                class="award-list-link d-flex text-center justify-content-center d-block"
-              >
-                <div class="award-img-box d-flex justify-content-center">
-                  <img src="./assests/images/muse-award.webp" alt="" />
-                </div>
-                <div class="award-content">
-                  <h3 class="award-card-head fs1-5  pt-md-3 pt-3 pt-lg-4">Muse</h3>
-                  <p class="award-card-desc">
-                    Gold winner for educational app design
-                  </p>
-                </div>
-              </a>
-            </li>
-            <li class="award-card bg-white">
-              <a
-                href="#"
-                class="award-list-link d-flex text-center justify-content-center d-block"
-              >
-                <div class="award-img-box d-flex justify-content-center">
-                  <img
-                    src="./assests/images/designrush-award.webp"
-                    alt=""
-                    class="d-block"
-                  />
-                </div>
-                <div class="award-content">
-                  <h3 class="award-card-head fs1-5  pt-md-3 pt-3 pt-lg-4">
-                    Designrush
-                  </h3>
-                  <p class="award-card-desc">
-                    Top 30 UI UX design company India ,2023
-                  </p>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
+ <!-- <section class="trusted-section">
+   <div class="container">
+      <div class="trusted-box d-flex flex-column justify-content-center text-center gap-lg-3">
+         <h3 class="trusted-heading fs3-125 text-black fw-bold">Trusted by leading enterprises</h3>
+         <p class="trusted-para text-black fs1-5">
+            Successful enterprises have partnered with us for their UX design needs.
+         </p>
+      </div>  
+   </div>
+   <div class="client-content container">
+      <div class="client-wrapper swiper">
+         <div class="client-wrappers d-flex flex-column" id="clientSlider">
+            <div
+               class="row swiper-slider mt-lg-5 d-flex flex-wrap justify-content-center">
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src="./assests/images/micro.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="Micrsoft Logo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/aramco-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="Aramco Logo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/panther-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="Panther Logo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/damac-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="Damac Logo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/oman-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="Oman Logo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/roca-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="Roca Logo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/rpg-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="Rpg Logo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/embassy-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="EmbassyLogo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/elasticrun-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="ElasticrunLogo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/cookies-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="Cookies Logo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/legrand-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="Legrand Logo" />
+                  </div>
+               </div>
+               <div
+                  class="item d-flex justify-content-center col-md-4 col-lg-2 p-lg-3 p-2 my-2 col-6 my-lg-4 swiper-slide">
+                  <div class="clients-img">
+                     <img
+                        src=" ./assests/images/hp-logo.svg"
+                        loading="lazy"
+                        class="img-fluid d-block"
+                        alt="HP Logo" />
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </section> -->
- <section class="insight-section">
+   </div>
+</section> -->
+ <!-- <section class="insight-section">
    <div class="container-insight">
      <div class="insight-head-box d-flex justify-content-between">
        <h3 class="insight-title w-100 fs3-125">
          Read insightful articles from UI UX experts
        </h3>
-       <div>
-         <a
-           href="#"
-           class="hover-effect seeAll link-underline-dark text-dark fs-5">See_all</a>
-       </div>
      </div>
      <div class="insight-wrapper mt-lg-5">
        <div
          class="insight-slider owl-theme d-flex justify-content-between align-items-start">
-         <div class="insight-card">
-           <div class="sub-insight-card">
+         <div class="insight-card card">
+           <div class="sub-insight-card card-footer">
              <a href="#" class="card-detail-img d-block">
                <img
                  src="./assests/images/dashboard-design-principles.jpg"
@@ -1020,8 +777,7 @@
                  class="img-fluid d-block d-flex w-100 object-fit-cover" />
              </a>
              <div class="insight-card-desc-box pb-lg-2">
-               <a href="#" class="insight-card-desc fs1-5 text-decoration-none">Top 23 Must-Know Dashboard UI/UX Design principles for
-                 2024</a>
+               <a href="#" class="insight-card-desc fs1-5 text-decoration-none">Top 23 Must-Know Dashboard UI/UX Design principles</a>
              </div>
              <div class="insight-author-detail d-flex flex-column">
                <h4 class="author-name fs1">By Fazmeena</h4>
@@ -1032,8 +788,8 @@
              </div>
            </div>
          </div>
-         <div class="insight-card">
-           <div class="sub-insight-card">
+         <div class="insight-card card">
+           <div class="sub-insight-card card-footer">
              <a href="#" class="card-detail-img d-block">
                <img
                  src="./assests/images/insight--two.webp"
@@ -1052,8 +808,8 @@
              </div>
            </div>
          </div>
-         <div class="insight-card">
-           <div class="sub-insight-card">
+         <div class="insight-card card">
+           <div class="sub-insight-card card-footer">
              <a href="#" class="card-detail-img d-block">
                <img
                  src="./assests/images/insight-three.webp"
@@ -1075,7 +831,7 @@
        </div>
      </div>
    </div>
- </section>
+ </section>  -->
  <section class="FAQ-section">
    <div class="container-faq">
      <div class="heading-box">
@@ -1097,35 +853,35 @@
            <p>By investing in professional UI/UX design, your business can:</p>
            <ul class="answer-list list-unstyled">
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
-                 <span class="answer-list-content font-body-small fw-bold">  Enhance User Satisfaction:</span>
+                 <span class="answer-list-content font-body-small fw-bold"> Enhance User Satisfaction:</span>
                  Intuitive designs make navigation effortless, keeping users engaged and happy.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Boost Conversion Rates:</span>
                  Thoughtful design guides users toward key actions like signing up, purchasing, or contacting you, driving measurable results.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Build Brand Loyalty:</span>
                  A cohesive and enjoyable experience fosters trust and long-term relationships with your audience.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Save Costs Long-Term:</span>
                  Well-researched and user-focused design reduces the need for frequent updates and redesigns.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Stay Competitive: </span>
                  Exceptional design helps your product stand out in crowded markets.
@@ -1151,44 +907,44 @@
            </div>
            <ul class="answer-list list-unstyled">
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Discovery & Research: </span>We begin by understanding your goals, target audience, and gathering user insights.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">User Personas & Journey Mapping: </span>We create user personas and map out user journeys to identify key touchpoints.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Wireframing & Prototyping: Analysis: </span>We design wireframes and interactive prototypes to test and refine the user experience.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">
                    UI/UX Design: </span>Our team crafts a visually appealing and functional interface that aligns with your brand identity.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Usability Testing:</span>We gather feedback to improve usability and ensure the design meets user needs.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Front-End Development:</span>We turn designs into responsive, functional products.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Launch & Support: </span>After launch, we offer ongoing support to ensure continued success and optimization.
                </h4>
@@ -1240,32 +996,32 @@
            </div>
            <ul class="answer-list list-unstyled">
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Comprehensive Audit: </span>We analyze the current design and identify areas for improvement based on user feedback, analytics, and industry standards.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">User-Centric Approach: </span>We focus on creating a design that aligns with your users' needs and your business objectives.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Modern Aesthetic:</span>We ensure your product reflects contemporary design trends while staying true to your brand identity.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">
                    Improved Functionality: </span> By enhancing navigation, interactions, and accessibility, we create a seamless experience for your users.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Responsive Design: </span>We ensure your redesigned product performs flawlessly across all devices and screen sizes.
                </h4>
@@ -1337,13 +1093,13 @@
              </div>
              <ul class="answer-list list-unstyled">
                <li class="list-items d-flex">
-               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+                 <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                  <h4 class="answer-list-content font-body-small">
                    <span class="answer-list-content font-body-small fw-bold">Design Tools: </span> Figma, Adobe XD, Sketch, InVision, Photoshop, Illustrator, Axure RP, and Zeplin for creating designs, wireframes, prototypes, and interactive mockups.
                  </h4>
                </li>
                <li class="list-items d-flex">
-               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+                 <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                  <h4 class="answer-list-content font-body-small">
                    <span class="answer-list-content font-body-small fw-bold">Front-End Development Tools: </span> HTML5, CSS3, JavaScript, React, Vue.js, Bootstrap, and Sass for responsive and interactive web development.
                  </h4>
@@ -1359,13 +1115,13 @@
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
              <h3 class="sub-title-question fs1-5 font-title-small">
-             Do You Provide Regular Updates or Reports on Progress?
+               Do You Provide Regular Updates or Reports on Progress?
              </h3>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">
              <div class="answer-box pt-lg-3 font-body-small">
-             Absolutely! We believe in maintaining transparent communication throughout the project. You’ll receive regular updates on progress, key milestones, and any necessary adjustments. We also provide detailed reports to ensure you’re always informed about the project's status, so you can provide timely feedback and stay aligned with the project’s goals. Your satisfaction is our priority, and we aim to keep everything on track and within scope.
+               Absolutely! We believe in maintaining transparent communication throughout the project. You’ll receive regular updates on progress, key milestones, and any necessary adjustments. We also provide detailed reports to ensure you’re always informed about the project's status, so you can provide timely feedback and stay aligned with the project’s goals. Your satisfaction is our priority, and we aim to keep everything on track and within scope.
              </div>
            </div>
          </div>
@@ -1373,13 +1129,13 @@
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
              <h3 class="sub-title-question fs1-5 font-title-small">
-             Do You Provide Maintenance and Updates After the Project is Complete?
+               Do You Provide Maintenance and Updates After the Project is Complete?
              </h3>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">
              <div class="answer-box pt-lg-3 font-body-small">
-             Yes, we offer ongoing maintenance and support after the project is complete. This includes bug fixes, updates, and enhancements to ensure your product remains optimized and functional. We also offer design improvements based on user feedback or changes in your business goals. Our goal is to ensure your digital product stays relevant, performs well, and continues to provide a positive user experience long after launch.
+               Yes, we offer ongoing maintenance and support after the project is complete. This includes bug fixes, updates, and enhancements to ensure your product remains optimized and functional. We also offer design improvements based on user feedback or changes in your business goals. Our goal is to ensure your digital product stays relevant, performs well, and continues to provide a positive user experience long after launch.
              </div>
            </div>
          </div>

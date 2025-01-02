@@ -193,7 +193,7 @@
   font-size: 1.2rem;
 }
 .case-study-section{
-  background-color: var(--headerclr);
+  background-color: var(--whiteclr);
 }
 .insight-section{
   background-color: var(--whiteclr);
@@ -245,10 +245,10 @@
   .transform-right svg {
     max-width: 600px !important;
   }
-  /* .revamp-right-boxes{
+  /*.revamp-right-boxes{
     max-width: 100%;
     flex-wrap: wrap;
-  } */
+  }*/
 } 
 /* For large screens (default styles are retained) */
 /* For tablets and smaller screens */
