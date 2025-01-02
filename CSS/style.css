@@ -201,17 +201,27 @@ header {
   transform: translateY(-5px);
 }
 .service-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 600;
   text-decoration: none;
-  color: #0dcaf0;
+  color: white;
+  text-decoration: underline;
 }
 .service-title:hover {
-  text-decoration: underline;
+  color: var(--hoverclr);
+  text-decoration: none;
+}
+ .black-box .comman-heading{
+  font-size: 3.3rem;
+  font-family: "Times New Roman", Times, serif;
+
+}
+.comman-para{
+  font-size: 1.2rem;
 }
 .service-description {
   margin-top: 10px;
-  font-size: 0.9rem;
+  font-size: 1.025rem;
   line-height: 1.6;
 }
 .trusted-section{

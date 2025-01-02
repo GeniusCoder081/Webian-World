@@ -23,12 +23,12 @@
     rel="stylesheet" />
 
 
-  <link rel="stylesheet" href="./CSS/contact-us.css" />
+  <link rel="stylesheet" href="./CSS/Contact-us.css" />
   <link rel="stylesheet" href="../CSS/Enterprises.css">
   <link rel="stylesheet" href="../CSS/StartUp.css">
-  <link rel="stylesheet" href="../CSS/process.css">
-  <link rel="stylesheet" href="./CSS/style.css" />
-  <link rel="stylesheet" href="./CSS/responsive.css" />
+  <link rel="stylesheet" href="../CSS/Process.css">
+  <link rel="stylesheet" href="./CSS/Style.css" />
+  <link rel="stylesheet" href="./CSS/Responsive.css" />
 </head>
 
 <body>
@@ -37,7 +37,7 @@
       <div class="container-fluid px-lg-5 py-lg-2">
         <a class="navbar-brand fs-2" href="../index.php"><img
             src="./assests/images/logo.svg"
-            width="230px"
+            width="180px"
             height="80px"
             class="pb-2"
             alt="" /></a>
@@ -65,18 +65,12 @@
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation circle">
-            <div class="d-flex justify-content-between p-3">
-              <a class="navbar-brand fs-2" href="../index.php"><img
-                  src="./assests/images/logo.svg"
-                  width="230px"
-                  height="80px"
-                  class="pb-2"
-                  alt="" /></a>
+            <div class="d-flex justify-content-end p-3">
               <i class="lni lni-xmark-circle fs-2"></i>
             </div>
           </button>
           <ul
-            class="navbar-nav me-lg-auto mb-2 p-4 mb-lg-0 p-lg-0 gap-4 fs-6 animate-links">
+            class="navbar-nav me-lg-auto mb-2 p-4 mb-lg-0 p-lg-0 gap-lg-4 fs-6 animate-links">
             <li class="nav-item">
               <a
                 class="nav-link active"
@@ -95,7 +89,7 @@
               </a>
               <ul class="dropdown-menu main-drop-menu" aria-labelledby="dropdownMenuLink">
                 <li>
-                  <a class="dropdown-item" href="../Enterprises.php">
+                  <a class="dropdown-item" href="#">
                     <span class="menu-text">Enterprises</span>
                   </a>
                 </li>
