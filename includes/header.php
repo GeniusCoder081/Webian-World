@@ -9,7 +9,7 @@
   <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
   <link
     rel="shortcut icon"
-    href="./assests/icons/w-Edu.svg"
+    href="./assests/icons/W-Edu.svg"
     type="image/x-icon" />
   <link
     rel="stylesheet"
@@ -23,17 +23,17 @@
     rel="stylesheet" />
 
 
+  <link rel="stylesheet" href="./CSS/Style.css" />
   <link rel="stylesheet" href="./CSS/Contact-us.css" />
   <link rel="stylesheet" href="../CSS/Enterprises.css">
   <link rel="stylesheet" href="../CSS/StartUp.css">
   <link rel="stylesheet" href="../CSS/Process.css">
-  <link rel="stylesheet" href="./CSS/Style.css" />
   <link rel="stylesheet" href="./CSS/Responsive.css" />
 </head>
 
 <body>
   <header class="container-fluid sticky-top">
-    <nav class="navbar navbar-expand-lg py-4 py-lg-0">
+    <nav class="navbar navbar-expand-lg  py-lg-0">
       <div class="container-fluid px-lg-5 py-lg-2">
         <a class="navbar-brand fs-2" href="../index.php"><img
             src="./assests/images/logo.svg"
@@ -117,7 +117,7 @@
               <a class="nav-link " href="#">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Blog</a>
+              <a class="nav-link " href="../Package.php">Our Package</a>
             </li>
           </ul>
           <div class="d-flex g-2">

@@ -1,4 +1,4 @@
- <?php include 'includes/header.php'; ?>
+ <?php include 'includes/Header.php'; ?>
 
  <section class="content pb-lg-4">
    <div class="hero-container pt-lg-4">
@@ -68,7 +68,7 @@
  <section class="black-box">
    <div class="container">
      <div class="text-center mb-5">
-       <h2 class="text-white comman-heading fw-semibold">Crafting innovative UI UX designs to turn your ideas into reality.</h2>
+       <h3 class="text-white comman-heading fw-semibold">Crafting innovative UI UX designs to turn your ideas into reality.</h3>
        <p class="text-white-50 comman-para">
          As experts in UI/UX design, we manage the entire journey, from initial research and planning to design and implementation. Our UI UX services are:
        </p>
@@ -149,7 +149,7 @@
          </h3>
        </div>
        <div class="case-study-row d-flex flex-wrap justify-content-between ">
-         <div class="case-study-box shadow card card-footer card card-footer">
+         <div class="case-study-box    card card-footer card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -184,7 +184,7 @@
              Experience luxury with AirClass! Book business class flights and premium airline tickets for seamless, comfortable, worldwide travel.
            </p>
          </div>
-         <div class="case-study-box shadow card card-footer">
+         <div class="case-study-box hover:   card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -220,7 +220,7 @@
              make stock education and investment simple and engaging.
            </p>
          </div>
-         <div class="case-study-box shadow card card-footer">
+         <div class="case-study-box    card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -256,7 +256,7 @@
              create a seamless shopping experience & improve sales.
            </p>
          </div>
-         <div class="case-study-box shadow card card-footer">
+         <div class="case-study-box    card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -292,7 +292,7 @@
              under the Govt. of India to facilitate data accessing & sharing.
            </p>
          </div>
-         <div class="case-study-box shadow card card-footer">
+         <div class="case-study-box    card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -328,7 +328,7 @@
              encourage user interactions and increase user engagement.
            </p>
          </div>
-         <div class="case-study-box shadow card card-footer">
+         <div class="case-study-box    card card-footer">
            <a
              href="#"
              class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -696,4 +696,4 @@
    </div>
  </section>
 
- <?php include 'includes/footer.php' ?>
+ <?php include 'includes/Footer.php' ?>

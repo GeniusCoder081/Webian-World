@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/Header.php'; ?>
 <section class="case-study-section">
   <div class="container">
     <div class="case-study-wrapper">
@@ -6,13 +6,13 @@
         <h3 class="case-study-heading" style="font-size: 5.8rem">
           Portfolio of our creative projects
         </h3>
-        <p class="case-study-paragraph">
+        <p class="case-study-paragraph fs1-5">
           A glimpse into how we helped our clients design meaningful
           solutions.
         </p>
       </div>
-      <div class="case-study-row d-flex flex-wrap justify-content-between">
-        <div class="case-study-box">
+      <div class="case-study-row d-flex flex-wrap justify-content-between ">
+        <div class="case-study-box   card card-footer card card-footer">
           <a
             href="#"
             class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -35,7 +35,7 @@
                 src="./assests/video/case001.mp4"></video>
             </div>
           </a>
-          <h4 class="case-sub-title fs1  fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
+          <h4 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3 ">
             Online Plane Tickets booking platform
           </h4>
           <a
@@ -47,7 +47,7 @@
             Experience luxury with AirClass! Book business class flights and premium airline tickets for seamless, comfortable, worldwide travel.
           </p>
         </div>
-        <div class="case-study-box">
+        <div class="case-study-box card card-footer">
           <a
             href="#"
             class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -70,7 +70,7 @@
                 src="./assests/video/case-1-video.mp4"></video>
             </div>
           </a>
-          <h4 class="case-sub-title fs1  pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
+          <h4 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
             Mobile app UI UX design
           </h4>
           <a
@@ -83,7 +83,7 @@
             make stock education and investment simple and engaging.
           </p>
         </div>
-        <div class="case-study-box">
+        <div class="case-study-box   card card-footer">
           <a
             href="#"
             class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -106,7 +106,7 @@
                 src="./assests/video/case-2-video.mp4"></video>
             </div>
           </a>
-          <h4 class="case-sub-title fs1  pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
+          <h4 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
             Ecommerce website design & UI development
           </h4>
           <a
@@ -119,7 +119,7 @@
             create a seamless shopping experience & improve sales.
           </p>
         </div>
-        <div class="case-study-box">
+        <div class="case-study-box   card card-footer">
           <a
             href="#"
             class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -142,7 +142,7 @@
                 src="./assests/video/case-3.mp4"></video>
             </div>
           </a>
-          <h4 class="case-sub-title fs1  pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
+          <h4 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
             Web app UX UI design
           </h4>
           <a
@@ -155,7 +155,7 @@
             under the Govt. of India to facilitate data accessing & sharing.
           </p>
         </div>
-        <div class="case-study-box">
+        <div class="case-study-box   card card-footer">
           <a
             href="#"
             class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -178,7 +178,7 @@
                 src="./assests/video/case-4.mp4"></video>
             </div>
           </a>
-          <h4 class="case-sub-title fs1  pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
+          <h4 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
             Mobile app UI UX design
           </h4>
           <a
@@ -191,7 +191,7 @@
             encourage user interactions and increase user engagement.
           </p>
         </div>
-        <div class="case-study-box">
+        <div class="case-study-box   card card-footer">
           <a
             href="#"
             class="sub-case-study-block d-flex flex-column text-decoration-none">
@@ -214,7 +214,7 @@
                 src="./assests/video/case-5.mp4"></video>
             </div>
           </a>
-          <h4 class="case-sub-title fs1  pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
+          <h4 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3">
             Mobile app design & UI development
           </h4>
           <a
@@ -229,6 +229,15 @@
         </div>
       </div>
     </div>
+    <div class="view-btn d-flex justify-content-center">
+      <a
+        href="#"
+        class="view-link fs1-5 d-flex justify-content-center text-decoration-none gap-lg-2 text-center">
+        <span
+          class="view-link-text position-relative text-center d-inline-flex align-self-lg-start">View more case studies</span>
+        <span class="view-next-icon fs1 d-flex align-items-center ml-lg-1"><i class="fa-solid fa-chevron-right view-next-icon fs1"></i></span>
+      </a>
+    </div>
   </div>
 </section>
-<?php include 'includes/footer.php'; ?>
+<?php include 'includes/Footer.php'; ?>

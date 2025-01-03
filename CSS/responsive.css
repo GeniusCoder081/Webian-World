@@ -1,5 +1,13 @@
 /* responsive screen beetween zero  to 576px */
 @media only screen and (max-width: 576px) {
+  .navbar-brand img{
+    height: 60px !important;
+    width: 140px !important;
+  }
+  .navbar-brand{
+    height: 60px !important;
+    width: 140px !important;
+  }
   .banner-title {
     font-size: 2.3rem;
     text-align: center;
@@ -358,7 +366,7 @@
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .navbar-nav{
-    gap: 3rem !important;
+    gap: 1.3rem !important;
   }
   .footer-section .interact-media-wrap .interact-media {
     margin-left: auto;

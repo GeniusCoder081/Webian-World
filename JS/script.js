@@ -12,7 +12,6 @@ document.querySelectorAll('.nav-item').forEach((item) => {
 });
 //  navbar dropdwn js End....................................................................................................................
 
-
 const watchReelText = document.querySelector(".videobtn-case-icon");
 const videoContainer = document.querySelector(".video-hover-box");
 const hoverVideo = document.getElementById("hoverVideo");
