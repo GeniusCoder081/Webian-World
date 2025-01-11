@@ -1,4 +1,4 @@
-<?php include 'includes/header.php';?>
+<?php include 'includes/Header.php';?>
 
     <main class="main-content contactus-content">
       <section class="contact-us-banner home-banner">
@@ -80,7 +80,7 @@
                     >
                   </div>
 
-                  <button type="submit" class="submit btn btn-primary">
+                  <button type="submit" class="submit btn btn-primary py-lg-2 px-lg-5 py-2 px-5 fs-5">
                     Submit
                   </button>
                   <noscript
@@ -121,4 +121,4 @@
         </div>
       </section>
     </main>
- <?php include 'includes/footer.php';?>
+ <?php include 'includes/Footer.php';?>

@@ -1,18 +1,19 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/Header.php'; ?>
 <section class="affordable-section common">
     <div class="container">
         <div class="inner-affordable d-flex gap-lg-4">
             <div class="affordable-left">
                 <h3 class="heading fs3-75">Affordable excellence in UX designs for startups</h3>
                 <p class="para fs1-5">Don't let mediocre UX designs hinder your growth. Upgrade now!</p>
-                <form class="d-flex ">
+                <form class="d-flex " 
+                action="./contact-us.php">
                     <button class="btn fs-6  py-lg-3 px-lg-5 py-md-2 px-md-3 fw-bold contact-us-btn hover-effect1">
                         Work with Us
                     </button>
                 </form>
             </div>
             <div class="affordable-right">
-                <svg width="821" height="534" viewBox="0 0 821 534" fill="none" class="img-fluid d-block " xmlns="http://www.w3.org/2000/svg">
+                <svg width="821" height="400" viewBox="0 0 821 534" fill="none" class="img-fluid d-block " xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 534C0 534 2.61176 512.297 14.5837 504.79C26.5556 497.274 47.8877 503.964 47.8877 503.964C47.8877 503.964 43.0311 482.949 58.4027 470.208C73.7734 457.461 98.6093 469.106 98.6093 469.106C98.6093 469.106 123.889 437.29 162.191 444.853C198.084 451.941 218.038 497.825 218.038 497.825C218.038 497.825 222.758 485.661 230.603 482.699C235.234 480.943 240.955 482.407 244.864 483.887C247.577 484.921 249.417 485.971 249.417 485.971C249.417 485.971 253.289 467.023 265.357 455.25C277.424 443.475 282.474 442.135 291.435 442.135C318.773 442.135 332.055 472.154 332.055 472.154C332.055 472.154 342.971 462.615 353.66 464.939C364.349 467.255 377.5 491.5 377.5 491.5C377.5 491.5 377.5 475.52 415 458.917C440 458.917 441.5 482.699 441.5 482.699C441.5 482.699 465.795 462.357 477.73 458.917C489.665 455.475 506.5 470.208 506.5 470.208C506.5 470.208 500.317 431.671 527.924 415.912C546.876 405.093 577.368 414.931 577.368 414.931C577.368 414.931 573.217 402.722 584.679 392.474C591.835 386.078 604.691 388.096 604.691 388.096C604.691 388.096 629.069 335.095 675.146 361.255C727.114 390.754 693.212 441.686 693.212 441.686C693.212 441.686 722.111 432.658 736.939 452.648C750.39 470.776 734.976 486.703 734.976 486.703C734.976 486.703 754.325 488.235 758.484 495.01C762.643 501.794 763.633 512.211 763.633 512.211C763.633 512.211 779.082 507.846 796.424 511.143C813.775 514.432 821 534 821 534C821 534 364.403 533.983 327.967 533.983C291.531 533.983 0 534 0 534Z" fill="#CDCDCD" />
                     <path d="M321.526 448.091C321.526 443.898 324.763 440.498 328.754 440.498C332.746 440.498 335.982 443.898 335.982 448.091C335.982 452.285 332.746 455.685 328.754 455.685C324.763 455.685 321.526 452.285 321.526 448.091Z" fill="#ffc901" />
                     <path d="M646.812 497.651C646.812 493.46 650.045 490.057 654.039 490.057C658.026 490.057 661.265 493.46 661.265 497.651C661.265 501.848 658.026 505.245 654.039 505.245C650.045 505.245 646.812 501.848 646.812 497.651Z" fill="#ffc901" />
@@ -48,117 +49,16 @@
         </div>
     </div>
 </section>
-<section class="empower-section ">
-    <div class="container">
-        <div class="empower-left-box d-flex flex-column justify-content-center text-center gap-lg-3 ">
-            <h4 class="heading fs3-125">Empower your startup with user centric design</h4>
-            <p class="para fs1-5">
-                We specialize in crafting high quality UX designs at an affordable price that help our startup clients shine in a sea of competitors. Hundreds of startup clients have entrusted Aufait UX with their vision and we have helped them to become unicorns too. We crafted UI UX designs for their products and increased conversion rates and generated substantial revenues.
-            </p>
-            <span class="empower-dark fs1-5 fw-semibold"><a href="#" class="hover-effect fw-normal text-decoration-underline fw-semibold">Talk to us</a> today to turn your startup ideas into a UNICORN</span>
-        </div>
-        <div class="empower-right-box">
-            <div class="services-logo-box">
-                <ul class="services-logo-list  d-flex flex-wrap overflow-hidden">
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/images/service-item-1.svg" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/images/service-item-2.svg" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/images/service-item-3.svg" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/images/service-item-4.svg" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/images/service-item-5.svg" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/images/service-item-6.svg" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/images/service-item-7.svg" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/images/service-item-8.svg" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/images/service-item-9.svg" alt=""></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="black-box">
-   <div class="container">
-     <div class="text-center mb-5">
-       <h2 class="text-white fs3-125 comman-heading">Crafting innovative UI UX designs to turn your ideas into reality.</h2>
-       <p class="text-white-50 comman-para">
-         As experts in UI/UX design, we manage the entire journey, from initial research and planning to design and implementation. Our UI UX services are:
-       </p>
-     </div>
-
-     <div class="row">
-       <div class="col-lg-6 col-md-6 col-sm-12">
-         <div class="service-card">
-           <a href="./Enterprises.php" class="service-title">UI/UX Solutions</a>
-           <p class="service-description">
-             From concept to launch, we provide comprehensive UI UX services that include research, wireframing, design, and development, all aimed at creating seamless, user-centric experiences that drive results.
-           </p>
-         </div>
-       </div>
-
-       <div class="col-lg-6 col-md-6 col-sm-12">
-         <div class="service-card">
-           <a href="./StartUp.php" class="service-title">UI/UX for Startups</a>
-           <p class="service-description">
-             We offer tailored UI/UX design services to help startups create user-centric, visually engaging, and scalable digital products, from MVP design to prototyping and user research, ensuring impactful growth and success.
-           </p>
-         </div>
-       </div>
-
-       <div class="col-lg-6 col-md-6 col-sm-12">
-         <div class="service-card">
-           <a href="#" class="service-title">UX Audit</a>
-           <p class="service-description">
-             A UX audit evaluates your product’s usability, identifying issues and opportunities for improvement to enhance user experience, efficiency, and performance with actionable recommendations.
-           </p>
-         </div>
-       </div>
-
-       <div class="col-lg-6 col-md-6 col-sm-12">
-         <div class="service-card">
-           <a href="#" class="service-title">Design System</a>
-           <p class="service-description">
-             A design system is a set of reusable components and guidelines that ensure consistency and efficiency in UI design, helping teams create cohesive and scalable user experiences across products.
-           </p>
-         </div>
-       </div>
-
-       <div class="col-lg-6 col-md-6 col-sm-12">
-         <div class="service-card card5">
-           <a href="#" class="service-title">SAP UX Design</a>
-           <p class="service-description">
-             SAP UX design enhances user experiences by simplifying workflows and creating intuitive interfaces for SAP applications, improving usability and productivity.
-           </p>
-         </div>
-       </div>
-
-       <div class="col-lg-6 col-md-6 col-sm-12">
-         <div class="service-card">
-           <a href="#" class="service-title">Front-End Development</a>
-           <p class="service-description">
-             Front-end development focuses on building the visual and interactive aspects of a website or application, ensuring a seamless and engaging user experience through HTML, CSS, JavaScript, Angular and React JS.
-           </p>
-         </div>
-       </div>
-
-       <div class="col-lg-6 col-md-6 col-sm-12">
-         <div class="service-card">
-           <a href="#" class="service-title">Dashboard Design</a>
-           <p class="service-description">
-             We specialize in creating intuitive and user-friendly dashboards that provide clear insights and data visualization. Our designs focus on improving usability, enhancing user engagement, and making complex data easy to interpret, helping businesses make informed decisions efficiently.
-           </p>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
 <section class="package-section common">
     <div class="container">
         <div class="package-upper-box text-center">
             <h3 class="heading fs3-75">Our UX design packages</h3>
-            <p class="para fs1-5">As a <a href="#" class="hover-effect fw-normal text-decoration-underline">UI UX design company</a> that understands the unique challenges and cost constraints of startups, we have affordable UI UX design packages that's lighter on your wallet. Our startup packages are designed to deliver value for every dollar, meeting your custom needs and enabling rapid product launch and growth.</p>
+            <p class="para fs1-5">As a UX design company that values innovation and understands the budgetary constraints of startups, we offer thoughtfully crafted packages to suit your needs. Our affordable UX design solutions ensure you receive maximum value while enabling seamless product launches and sustainable growth. Designed with startups in mind, our packages combine creativity, usability, and cost-effectiveness to bring your vision to life.</p>
         </div>
     </div>
-    <div class="container my-5">
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover align-middle">
+    <div class="container my-5 d-flex flex-column">
+        <div class="table-responsive rounded-4">
+            <table class="table table-hover rounded-4 align-middle ">
                 <thead class="text-center bg-light">
                     <tr>
                         <th class="text-start">
@@ -166,27 +66,27 @@
                             <p class="text-muted fs-6 mb-0">Key UI/UX design deliverables</p>
                         </th>
                         <th>
-                            <div class="bg-body-tertiary rounded-3 p-3">
-                                <span class="badge bg-secondary small">Small</span>
-                                <h3 class="text-success fw-bold">$4,999</h3>
+                            <div class="table-body-tertiary rounded-3 p-3">
+                                <span class="badge small"><i class="fa-solid fa-tag" style="color: #f13b3b;"></i></span>
+                                <h3 class="text-dark fw-bold mt-2">$349</h3>
                                 <p class="text-muted mb-2">UX startup/MVP</p>
-                                <button class="btn btn-primary btn-sm">Select Package</button>
+                                <button class="btn btn-outline-warning text-dark btn-sm px-5 py-2 fw-bold">Select Package</button>
                             </div>
                         </th>
                         <th>
-                            <div class="bg-body-tertiary rounded-3 p-3">
-                                <span class="badge bg-secondary medium">Medium</span>
-                                <h3 class="text-success fw-bold">$8,999</h3>
+                            <div class="table-body-tertiary rounded-3 p-3">
+                                <span class="badge medium"><i class="fa-solid fa-tag" style="color: #00d118;"></i></span>
+                                <h3 class="text-dark fw-bold mt-2">$599</h3>
                                 <p class="text-muted mb-2">UX enhancer/existing design</p>
-                                <button class="btn btn-primary btn-sm">Select Package</button>
+                                <button class="btn btn-warning text-dark btn-sm px-5 py-2 fw-bold">Select Package</button>
                             </div>
                         </th>
                         <th>
-                            <div class="bg-body-tertiary rounded-3 p-3">
-                                <span class="badge bg-secondary large">Large</span>
-                                <h3 class="text-success fw-bold">$19,999</h3>
+                            <div class="table-body-tertiary rounded-3 p-3">
+                                <span class="badge large"><i class="fa-solid fa-tag" style="color: #154df4;"></i></span>
+                                <h3 class="text-dark  fw-bold mt-2">$999</h3>
                                 <p class="text-muted mb-2">Complete UX redesign</p>
-                                <button class="btn btn-primary btn-sm">Select Package</button>
+                                <button class="btn btn-outline-warning text-dark btn-sm px-5 py-2 fw-bold">Select Package</button>
                             </div>
                         </th>
                     </tr>
@@ -194,57 +94,57 @@
                 <tbody>
                     <tr>
                         <td>UX Strategy</td>
-                        <td class="text-center"><i class="fa-regular fa-circle-xmark text-danger"></i></td>
-                        <td class="text-center"><i class="fa-regular fa-circle-xmark text-danger"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
+                        <td class="text-center"><i class="fa-regular common-icon fa-circle-xmark text-warning"></i></td>
+                        <td class="text-center"><i class="fa-regular common-icon fa-circle-xmark text-warning"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
                     </tr>
                     <tr>
                         <td>Competitor Research</td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
                     </tr>
                     <tr>
                         <td>User Persona</td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
                     </tr>
                     <tr>
                         <td>User Flow</td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
                     </tr>
                     <tr>
                         <td>Wireframes</td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
                     </tr>
                     <tr>
                         <td>UI Design (Figma)</td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
                     </tr>
                     <tr>
                         <td>Clickable Prototype (Figma)</td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
                     </tr>
                     <tr>
                         <td>Style Guide</td>
-                        <td class="text-center"><i class="fa-regular fa-circle-xmark text-danger"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
-                        <td class="text-center"><i class="fa-solid fa-circle-check text-success"></i></td>
+                        <td class="text-center"><i class="fa-regular fa-circle-xmark text-warning"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
+                        <td class="text-center"><i class="fa-solid common-icon fa-circle-check text-primary"></i></td>
                     </tr>
                     <tr>
                         <td>No. of Screens</td>
-                        <td class="text-center">Up to 10</td>
-                        <td class="text-center">Up to 20</td>
-                        <td class="text-center">Up to 50</td>
+                        <td class="text-center">Up to 15</td>
+                        <td class="text-center">Up to 25</td>
+                        <td class="text-center">Up to 35</td>
                     </tr>
                     <tr>
                         <td>Custom Themes</td>
@@ -260,6 +160,52 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+        <div class="Custom-plan d-flex flex-wrap border p-3 rounded-4 align-item-center gap-4">
+            <div class="first-box ps-3 gap-3">
+                <span class="text-white fw-bold rounded-2 custom">Custom</span>
+                <p class="custom-para text-justify pt-3">If these plans don't fit, let's create one that suits. Customize your Subscription for a perfect fit, bigger or smaller!</p>
+            </div>
+            <div class="heading-box align-items-center d-flex">
+                <h2 class="text-dark fw-bold ms-3 p-2 rounded-2">Let's Talk!</h2>
+            </div>
+            <div class="content-box d-flex flex-wrap text-dark fw-bold">
+                <span><i class="fa-solid fa-check text-primary me-2"></i>Design & Development</span>
+                <span><i class="fa-solid fa-check text-primary me-2"></i> Strategy workshop</span>
+                <span><i class="fa-solid fa-check text-primary me-2"></i> Priority Support</span>
+                <span><i class="fa-solid fa-check text-primary me-2"></i> Multiple tasks at once</span>
+                <span><i class="fa-solid fa-check text-primary me-2"></i> Ongoing autonomous</span>
+                <span><i class="fa-solid fa-check text-primary me-2"></i> Advanced custom development</span>
+            </div>
+            <div class="button-box m-auto">
+                <button class="btn btn-warning text-dark btn-sm px-5 py-3 fw-bold">Select Package</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="empower-section ">
+    <div class="container">
+        <div class="empower-left-box d-flex flex-column justify-content-center text-center gap-lg-3 ">
+            <h4 class="heading fs3-125">Empower your startup with user centric design</h4>
+            <p class="para fs1-5">
+                We specialize in crafting high quality UX designs at an affordable price that help our startup clients shine in a sea of competitors. Hundreds of startup clients have entrusted Aufait UX with their vision and we have helped them to become unicorns too. We crafted UI UX designs for their products and increased conversion rates and generated substantial revenues.
+            </p>
+            <span class="empower-dark fs1-5 fw-semibold"><a href="#" class="hover-effect fw-normal text-decoration-underline fw-semibold">Talk to us</a> today to turn your startup ideas into a UNICORN</span>
+        </div>
+        <div class="empower-right-box">
+            <div class="services-logo-box">
+                <ul class="services-logo-list  d-flex flex-wrap overflow-hidden">
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/himalaya-logo.jpg" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center bg-black"> <img src="./assests/icons/whiteLogo.webp" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
@@ -495,7 +441,7 @@
          class="view-link fs1-5 d-flex justify-content-center text-decoration-none gap-lg-2 text-center">
          <span
            class="view-link-text position-relative text-center d-inline-flex align-self-lg-start">View more case studies</span>
-         <span class="view-next-icon fs1 d-flex align-items-center ml-lg-1"><i class="fa-solid fa-chevron-right view-next-icon fs1"></i></span>
+         <span class="view-next-icon fs1 d-flex align-items-center ml-lg-1"><i class="fa-solid common-icon fa-chevron-right view-next-icon fs1"></i></span>
        </a>
      </div>
    </div>
@@ -521,35 +467,35 @@
            <p>By investing in professional UI/UX design, your business can:</p>
            <ul class="answer-list list-unstyled">
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">  Enhance User Satisfaction:</span>
                  Intuitive designs make navigation effortless, keeping users engaged and happy.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Boost Conversion Rates:</span>
                  Thoughtful design guides users toward key actions like signing up, purchasing, or contacting you, driving measurable results.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Build Brand Loyalty:</span>
                  A cohesive and enjoyable experience fosters trust and long-term relationships with your audience.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Save Costs Long-Term:</span>
                  Well-researched and user-focused design reduces the need for frequent updates and redesigns.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Stay Competitive: </span>
                  Exceptional design helps your product stand out in crowded markets.
@@ -575,44 +521,44 @@
            </div>
            <ul class="answer-list list-unstyled">
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Discovery & Research: </span>We begin by understanding your goals, target audience, and gathering user insights.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">User Personas & Journey Mapping: </span>We create user personas and map out user journeys to identify key touchpoints.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Wireframing & Prototyping: Analysis: </span>We design wireframes and interactive prototypes to test and refine the user experience.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">
                    UI/UX Design: </span>Our team crafts a visually appealing and functional interface that aligns with your brand identity.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Usability Testing:</span>We gather feedback to improve usability and ensure the design meets user needs.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Front-End Development:</span>We turn designs into responsive, functional products.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Launch & Support: </span>After launch, we offer ongoing support to ensure continued success and optimization.
                </h4>
@@ -664,32 +610,32 @@
            </div>
            <ul class="answer-list list-unstyled">
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Comprehensive Audit: </span>We analyze the current design and identify areas for improvement based on user feedback, analytics, and industry standards.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">User-Centric Approach: </span>We focus on creating a design that aligns with your users' needs and your business objectives.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Modern Aesthetic:</span>We ensure your product reflects contemporary design trends while staying true to your brand identity.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">
                    Improved Functionality: </span> By enhancing navigation, interactions, and accessibility, we create a seamless experience for your users.
                </h4>
              </li>
              <li class="list-items d-flex">
-             <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+             <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                <h4 class="answer-list-content font-body-small">
                  <span class="answer-list-content font-body-small fw-bold">Responsive Design: </span>We ensure your redesigned product performs flawlessly across all devices and screen sizes.
                </h4>
@@ -761,13 +707,13 @@
              </div>
              <ul class="answer-list list-unstyled">
                <li class="list-items d-flex">
-               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                  <h4 class="answer-list-content font-body-small">
                    <span class="answer-list-content font-body-small fw-bold">Design Tools: </span> Figma, Adobe XD, Sketch, InVision, Photoshop, Illustrator, Axure RP, and Zeplin for creating designs, wireframes, prototypes, and interactive mockups.
                  </h4>
                </li>
                <li class="list-items d-flex">
-               <i class="fa-solid fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
+               <i class="fa-solid common-icon fa-circle-dot process-list-pointer" style="color: #FFD43B;"></i>
                  <h4 class="answer-list-content font-body-small">
                    <span class="answer-list-content font-body-small fw-bold">Front-End Development Tools: </span> HTML5, CSS3, JavaScript, React, Vue.js, Bootstrap, and Sass for responsive and interactive web development.
                  </h4>
@@ -818,4 +764,4 @@
      </div>
     </div>
 </section>
-<?php include 'includes/footer.php'; ?>
+<?php include 'includes/Footer.php'; ?>

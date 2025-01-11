@@ -9,20 +9,25 @@
   --primaryclr: #222222;
   --secondaryclr: #414141;
   --whiteclr: #ffffff;
-  --btnclr: #FFC901;
-  --hoverclr: #f3c625;
-  --footerclr: #11163d;
+  --btnclr: #ffc901;
+  --hoverclr: #f7d149;
+  --footerclr: #1a2263;
+  /* --footerclr: #11163d; */
+}
+h3,h2,h1{
+  font-family: "Times New Roman", Times, serif;
 }
 .fs1 {
   font-size: 1rem;
+
 }
 .fs1-5 {
   font-size: 1.5rem;
 }
-.fs3-125{
+.fs3-125 {
   font-size: 3.125rem;
 }
-.fs3-75{
+.fs3-75 {
   font-size: 3.75rem;
 }
 .fs5 {
@@ -30,18 +35,21 @@
 }
 
 header {
-  background-color: var(--headerclr);
+  background-color: var(--whiteclr);
+}
+.scrolled {
+  border-bottom: 2px solid rgb(93, 93, 252);
 }
 .content {
   background-color: var(--headerclr);
 }
-.nav-item a{
+.nav-item a {
   font-size: 1.2rem;
   font-weight: 500;
+  color: #1a2263;
 }
-.nav-item a:hover{
-  color: #0D6EFD !important;
-  
+.nav-item a:hover {
+  color: #0d6efd !important;
 }
 /* Define the keyframes for fade-in and slide-up */
 @keyframes fadeInUp {
@@ -112,8 +120,17 @@ header {
   font-size: 1.8rem;
 }
 .contact-us-btn {
-  background-color: var(--btnclr) !important;
-  color: var(--whiteclr) !important;
+  background-color: var(--btnclr);
+  color: #1a2263;
+  font-size: 1.2rem;
+}
+.btn-hover:hover {
+  background-color: var(--hoverclr);
+  color: #1a2263;
+}
+.header-contactus {
+  background-color: var(--btnclr);
+  color: #1a2263;
 }
 .contact-us-text {
   display: flex;
@@ -142,43 +159,119 @@ header {
   flex: 1 0 calc(20% - 10px);
   text-align: center;
 }
-/*  Show reel section css */
-.container-box {
-  height: 560px;
+/* video section new  */
+.video-section {
+  background: rgb(210, 236, 250);
+  background: radial-gradient(
+    circle,
+    rgba(210, 236, 250, 1) 0%,
+    rgba(237, 246, 247, 1) 79%,
+    rgba(242, 252, 255, 1) 100%
+  );
 }
-.show-reel-content {
-  max-width: 1100px;
+.video-section .container {
+  max-width: 1400px;
+  padding: 8rem 4.375rem;
+  margin: 0 auto;
 }
-.videobtn-case-icon {
+.heading-video {
+  font-size: 4rem;
+}
+.modern {
+  color: #4154f1;
+}
+.para-video {
+  font-size: 1.5rem;
+  color: var(--secondaryclr);
+}
+.popup-box {
+  background-color: #fff;
+  border-radius: 25px;
+  max-width: 525px;
+}
+.popup-box a {
+  text-decoration: none;
+  color: #000;
+}
+.popup-box a:hover {
+  text-decoration: underline;
+  .popup-box {
+    background-color: #000;
+  }
+  .popup-box a {
+    color: white;
+  }
+}
+.modern-btn-box .btn1 {
+  background-color: #4154f1;
+}
+.modern-btn-box .btn2 {
+  outline: 1px solid #4154f1;
+  color: #000;
+}
+.modern-btn-box .btn1:hover {
+  background-color: #5c6cf8;
+}
+.modern-btn-box .btn2:hover {
+  background-color: #4154f1;
+  color: white;
+}
+.popup-box .new-btn {
+  background-color: #c4dcff;
+  border-radius: 25px;
+}
+.video-container {
+  width: 560px;
+  height: 370px;
   position: relative;
-  /* width: 370px; */
+  overflow: hidden;
+  border-radius: 25px;
+  background-color: #b2d8dd;
+  border: 8px solid #ffffff;
+  margin-left: 6rem;
 }
-.video-play-icon{
-  width: 60px;
-  height: 60px;
-  background-color: var(--btnclr);
-  border-radius: 50px;
-}
-/* video hover play  */
-.videobtn-case-icon {
-  transition: color 0.3s ease;
-}
-.videobtn-case-icon.hovered {
-  color: var(--btnclr);
-}
-.video-hover-box {
-  width: 160px;
-  height: 160px;
-  pointer-events: none;
-  z-index: 10;
-  transition: transform 0.5s ease, visibility 0.5s ease;
-  transform: scale(0);
-}
-#hoverVideo {
+.video-box {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+.video-content {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  border: 8px solid rgba(218, 218, 218, 0.336);
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 1;
+}
+.video-play-icon {
+  width: 55px;
+  height: 55px;
+}
+.ui-img-box {
+  width: 560px;
+  height: 370px;
+}
+.video-container:hover .video-box {
+  opacity: 1;
+  visibility: visible;
+}
+.play-icon {
+  font-size: 3rem;
+  color: white;
+  z-index: 2;
+}
+
 /* black box css  */
 .black-box .container {
   max-width: 1400px;
@@ -186,19 +279,23 @@ header {
   margin: 0 auto;
 }
 .black-box {
-  background-color: #000;
+  background-color: var(--footerclr);
 }
 .service-card {
-  background-color: #1a1a1a;
+  background-color: #252c5c;
   color: #fff;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
   transition: all 0.3s ease;
+  border: 1.5px solid #252c5c;
 }
 .service-card:hover {
-  background-color: #333;
-  transform: translateY(-5px);
+  border: 1.5px solid var(--hoverclr);
+  .service-title {
+    color: var(--hoverclr);
+    text-decoration: none;
+  }
 }
 .service-title {
   font-size: 1.6rem;
@@ -208,15 +305,12 @@ header {
   text-decoration: underline;
 }
 .service-title:hover {
-  color: var(--hoverclr);
-  text-decoration: none;
 }
- .black-box .comman-heading{
+.black-box .comman-heading {
   font-size: 3.3rem;
   font-family: "Times New Roman", Times, serif;
-
 }
-.comman-para{
+.comman-para {
   font-size: 1.2rem;
 }
 .service-description {
@@ -224,7 +318,7 @@ header {
   font-size: 1.025rem;
   line-height: 1.6;
 }
-.trusted-section{
+.trusted-section {
   padding: 6rem 0;
   background-color: var(--headerclr);
 }
@@ -233,7 +327,7 @@ header {
   background-color: var(--headerclr);
   padding: 8rem 0;
 }
-.card5{
+.card5 {
   padding-bottom: 2.7rem;
 }
 /* case-study-section */
@@ -256,7 +350,8 @@ header {
   transition: all 0.4s;
 }
 .case-study-box:hover {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .case-study-box .image-content {
   transition: all 0.4s;
@@ -342,7 +437,7 @@ header {
   max-width: 365px;
   min-width: 365px;
   background-color: #cfe6ff;
-  color: #0D6EFD;
+  color: #0d6efd;
 }
 .insight-card .card-detail-img img {
   width: 100%;
@@ -399,7 +494,7 @@ header {
   font-weight: 700;
   color: var(--primaryclr);
 }
-.process-list-pointer{
+.process-list-pointer {
   margin-right: 7px;
   margin-top: 6px;
 }
@@ -447,7 +542,7 @@ header {
   font-size: 4.5rem;
   font-family: "Times New Roman", Times, serif;
 }
-.address-area{
+.address-area {
   margin-bottom: 1rem;
 }
 .head-wrapper {
@@ -456,7 +551,7 @@ header {
 .footer-section .address-area .area-list .list-items {
   margin-right: 7rem;
 }
-.footer-section .interact-media-wrap{
+.footer-section .interact-media-wrap {
   gap: 7rem !important;
 }
 .footer-bottom-content {

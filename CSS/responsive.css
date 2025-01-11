@@ -2,11 +2,14 @@
 @media only screen and (max-width: 576px) {
   .navbar-brand img{
     height: 60px !important;
-    width: 140px !important;
+    width: 120px !important;
   }
+  .navbar .container-fluid {
+    padding:  0px  12px  !important;
+   }
   .navbar-brand{
     height: 60px !important;
-    width: 140px !important;
+    width: 120px !important;
   }
   .banner-title {
     font-size: 2.3rem;
@@ -58,11 +61,33 @@
   .videobtn-case-icon .watch-reel{
     font-size: 1.2rem !important;
   }
-  .video-play-icon {
-    position: relative;
-    width: 40px !important;
-    height: 40px !important;
-    margin-right: 1rem;
+  .video-section .container {
+    padding: 2.5rem 1.5rem;
+  }
+  .video-section .container .row{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem !important;
+  }
+  .video-container {
+    width: 550px;
+    height: 250px;
+    margin-left: 0rem;
+  }
+  .popup-box {
+    max-width: 400px;
+   }
+  .popup-box a ,.new-btn{
+    font-size: .68rem ;
+  }
+  .modern-btn-box .btn1 ,.modern-btn-box .btn2{
+    padding: 0.6rem 1.5rem !important;
+  }
+  .heading-video {
+    font-size: 2rem;
+  }
+  .para-video{
+    font-size: 1.14rem;
   }
  .comman-heading{
     font-size: 1.5rem !important;
@@ -195,10 +220,23 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .video-container {
+    width: 550px;
+    height: 370px;
+    margin-left: 0rem;
+  }
   .video-play-icon {
     margin-right: 1rem;
   }
-  
+  .popup-box a{
+    font-size: .88rem ;
+  }
+  .video-section .container {
+    padding: 3rem;
+  }
+  .heading-video {
+    font-size: 3rem;
+  }
   .testimony-section .card {
     max-width: 100%;
     margin: 0;
@@ -261,6 +299,19 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .planbtn{
+    margin-left: 1.7rem;
+  }
+  
+  .video-section .container .row{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .left-column ,.right-column{
+    width: 100% !important;
+    display: flex;
+  }
   .case-study-box {
     min-width: 100%;
     max-width: 100%;
@@ -286,6 +337,23 @@
   .banner-desc {
     font-size: 1.5rem;
     margin: auto !important;
+  }
+  .planbtn{
+    margin-left: 1.7rem;
+  }
+  .video-container {
+    width: 550px;
+    height: 370px;
+    margin-left: 0rem;
+  }
+  .video-section .container .row{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .left-column ,.right-column{
+    width: 100% !important;
+    display: flex;
   }
   .inner-box{
     gap: 2rem;
@@ -365,8 +433,26 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+  .nav-item a {
+    font-size: 1rem !important;
+  }
   .navbar-nav{
-    gap: 1.3rem !important;
+    gap: .7rem !important;
+  }
+  .video-container {
+    width: 550px;
+    height: 370px;
+    margin-left: 3rem;
+  }
+  .video-section .container .row{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .left-column ,.right-column{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
   }
   .footer-section .interact-media-wrap .interact-media {
     margin-left: auto;
@@ -401,5 +487,21 @@
 .contactUs-box{
   margin-top: 1.5rem !important;
 }
-
+.nav-item a {
+  font-size: 1.2rem !important;
+}
+.navbar-nav{
+  gap: 3rem !important;
+}
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+.navbar-nav{
+  gap: 2rem !important;
+}
+}
+@media (min-width: 1200px) and (max-width: 1450px){
+.video-container {
+  width: 500px;
+  margin-left: 3rem;
+}
 }

@@ -96,66 +96,76 @@ ul li {
   overflow-y: hidden;
   background: var(--whiteclr);
 }
+.table thead tr th{
+  padding: 2rem 1.5rem 2rem 1.5rem !important;
+}
+.table thead tr th:first-child{
+  padding: 2rem 1.5rem 2rem 2.5rem !important;
+}
+.table tbody tr td{
+  padding: 1rem 1.5rem 1rem 2.5rem !important;
+  font-weight: 400;
+  font-size: 1.1875rem;
+  color: #414141;
+}
+.table-body-tertiary{
+  background-color: rgb(229, 233, 238);
+}
+.common-icon{
+  font-size: 1.2rem;
+}
+.fa-tag{
+  font-size:2rem;
+}
+/* custom box css */
+.first-box {
+  flex: 1;
+}
+.Custom-plan {
+  background-color: #fff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
+.Custom-plan:hover {
+  background-color: #e2e2e2;
+}
+.heading-box {
+  flex: 1;
+}
+.heading-box h2{
+  background-color: #d4e6f5;
+}
+.custom{
+  font-size: 1.9rem;
+  padding: 10px;
+  background-color:navy;
+}
+.content-box {
+  flex: 2;
 
+  font-size: 14px;
+}
+.content-box span {
+  display: block;
+  flex: 1 1 45%;
+}
+.button-box {
+  flex: 1;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .content-box span {
+      flex: 1 1 100%;
+  }
 
+  .heading-box h2 {
+      font-size: 20px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .button-box button {
+      width: 100%;
+  }
+}
 
 
 @media only screen and (max-width: 992px) {

@@ -18,7 +18,7 @@
              class="d-flex mx-4"
              role="search"
              action="./contact-us.php">
-             <button class="btn py-lg-3 px-lg-5 fw-bold contact-us-btn hover-effect1" type="submit">
+             <button class="btn py-lg-3 px-lg-5 fw-bold btn-hover  contact-us-btn" type="submit">
                Contact Us
              </button>
            </form>
@@ -34,37 +34,43 @@
      </div>
    </div>
  </section>
- <section class="show-reel container-fluid">
-   <div
-     class="container container-box m-auto d-flex text-center align-items-center flex-column">
-     <div class="videobox m-auto d-flex row">
-       <div class="show-reel-content d-flex text-center align-items-center col-lg-8 ">
-         <h2 class="px-lg-3 fw-bolder fs-1 watch-reel-head">
-           As a growing UI/UX design company in India, we blend creativity and strategy to craft user-friendly and goal-oriented interfaces.
-         </h2>
+ <div class="video-section">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6 left-column">
+         <div class="left-content-box d-flex  flex-column gap-4">
+           <div class="p-1 d-flex popup-box gap-3 align-items-center">
+             <span class="modern px-3 py-1 fw-semibold new-btn">new</span>
+              <a href="./Package.php" class="fw-semibold">Nietzsche's Business Empowerment with Planfusion <i class="fa-solid fa-chevron-right text-dark ms-2"></i>
+              </a>
+           </div>
+           <h1 class="text-black heading-video fw-semibold"><span class="modern">Modernize</span> Your Business Planning</h1>
+           <p class=" para-video"> Start distributing live reports that facilitate quicker,more informed decisions, in more minutes.</p>
+           <div class="d-flex gap-4 modern-btn-box">
+             <button class="btn btn1 text-white py-3 px-5 fw-semibold rounded-3"> Get Started</button>
+             <button class=" btn btn2 py-3 px-5 fw-semibold rounded-3">Learn More</button>
+           </div>
+         </div>
        </div>
-       <div
-         class="videobtn-case-icon m-auto text-center justify-content-center d-flex align-items-center col-lg-4">
-
-         <span class="video-play-icon d-flex justify-content-center align-items-center"><i class="fa-solid fa-play" style="color: #ffffff;"></i></span>
-         <span class="fs-4 mx-lg-4 mx-md-4  watch-reel">
-           <span> Watch our show reel</span> <i class="fa-solid fa-chevron-right"></i>
-         </span>
-         <div
-           class="video-hover-box d-flex justify-content-center align-items-center position-absolute overflow-hidden rounded-circle">
-           <video
-             muted
-             playsinline
-             loop
-             preload="auto"
-             id="hoverVideo"
-             title="Show Reel Video"
-             loading="lazy"></video>
+       <div class="col-lg-5 right-column">
+         <div class="video-container ">
+           <div class="center-text video-content rounded-circle">
+             <span class="video-play-icon d-flex justify-content-center align-items-center">
+               <i class="fa-solid fa-play" style="color:rgb(0, 0, 0);"></i>
+             </span>
+           </div>
+           <video id="hoverVideo" class="video-box" muted loop preload="auto">
+             <source src="./assests/video/video-reel2.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+           </video>
+           <div>
+             <img src="./assests/images/reel-video-image.jpg" class=" ui-img-box">
+           </div>
          </div>
        </div>
      </div>
    </div>
- </section>
+ </div>
  <section class="black-box">
    <div class="container">
      <div class="text-center mb-5">
@@ -695,5 +701,4 @@
      </div>
    </div>
  </section>
-
  <?php include 'includes/Footer.php' ?>

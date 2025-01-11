@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --headerclr: #f5f5f5;
+  --primaryclr: #222222;
+  --secondaryclr: #414141;
+  --whiteclr: #ffffff;
+  --btnclr: #ffc901;
+  --hoverclr: #f7d149;
+  --footerclr: #1a2263;
+  /* --footerclr: #11163d; */
+}
+h2{
+  font-family: "Times New Roman", Times, serif;
+}
+.fs1 {
+  font-size: 1rem;
+}
+.fs1-5 {
+  font-size: 1.5rem;
+}
+.fs3-125 {
+  font-size: 3.125rem;
+}
+.fs3-75 {
+  font-size: 3.75rem;
+}
+.fs5 {
+  font-size: 5rem;
+}
+.Seo-section .container {
+  max-width: 1400px;
+  padding: 6rem 3rem 0rem 3rem;
+  margin: 0 auto;
+}
+.Seo-section .seo-heading {
+  color: var(--primaryclr);
+}
+.Seo-section .seo-para {
+  color: var(--secondaryclr);
+  
+}
+.Seo-card {
+  width: 31% !important;
+  background-color: #252c5c;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.Seo-card p{
+  color: rgb(209, 209, 209);
+  font-size: 14px;
+  margin-top: .5rem;
+}
+.seo-card-img .seo-img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.seo-card-img{
+    width: 115px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.seoservice-title {
+  font-size: 20px;
+}
+.seo-top-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #252c5c;
+  background-color: var(--btnclr);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.seo-top-btn:hover {
+  background-color: var(--hoverclr);
+  box-shadow: rgba(221, 221, 255, 0.25) 0px 6px 12px -2px, rgba(248, 236, 236, 0.3) 0px 3px 7px -3px;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 767px) {
+  .Seo-card {
+    padding: 15px;
+  }
+  .seo-top-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
