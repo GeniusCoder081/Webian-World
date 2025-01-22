@@ -14,12 +14,13 @@
   --footerclr: #1a2263;
   /* --footerclr: #11163d; */
 }
-h3,h2,h1{
+h3,
+h2,
+h1 {
   font-family: "Times New Roman", Times, serif;
 }
 .fs1 {
   font-size: 1rem;
-
 }
 .fs1-5 {
   font-size: 1.5rem;
@@ -50,6 +51,15 @@ header {
 }
 .nav-item a:hover {
   color: #0d6efd !important;
+}
+.nav-link.disabled {
+  color: gray !important; /* Change color to indicate disabled state */
+  opacity: 0.6;
+  font-weight: 300;
+}
+.nav-link.active {
+  opacity: 0.6;
+  font-weight: 700 !important;
 }
 /* Define the keyframes for fade-in and slide-up */
 @keyframes fadeInUp {
@@ -304,8 +314,6 @@ header {
   color: white;
   text-decoration: underline;
 }
-.service-title:hover {
-}
 .black-box .comman-heading {
   font-size: 3.3rem;
   font-family: "Times New Roman", Times, serif;
@@ -340,6 +348,7 @@ header {
 .case-study-heading-block .case-study-heading {
   margin-bottom: 2.875rem;
   font-weight: 700;
+  margin-left: 1.2rem;
   color: var(--primaryclr);
   font-family: "Times New Roman", Times, serif;
 }
@@ -355,6 +364,10 @@ header {
 }
 .case-study-box .image-content {
   transition: all 0.4s;
+}
+.case-study-paragraph{
+  color: #414141 !important;
+  margin-left: 1.2rem;
 }
 .image-content {
   min-width: 100%;

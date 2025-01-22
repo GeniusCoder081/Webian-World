@@ -3,7 +3,7 @@
 <section class="package-section common">
     <div class="container">
         <div class="package-upper-box text-center">
-            <h3 class="heading fs3-75">Our UX design packages</h3>
+            <h3 class="heading fs3-75 ">Our UX design packages</h3>
             <p class="para fs1-5">As a UX design company that values innovation and understands the budgetary constraints of startups, we offer thoughtfully crafted packages to suit your needs. Our affordable UX design solutions ensure you receive maximum value while enabling seamless product launches and sustainable growth. Designed with startups in mind, our packages combine creativity, usability, and cost-effectiveness to bring your vision to life.</p>
         </div>
     </div>

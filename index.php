@@ -1,6 +1,5 @@
  <?php include 'includes/Header.php'; ?>
-
- <section class="content pb-lg-4">
+ <section class="content pb-lg-5">
    <div class="hero-container pt-lg-4">
      <div
        class="container d-flex flex-column justify-content-center mt-lg-4">
@@ -12,6 +11,24 @@
          <p class="banner-desc pt-lg-3 m-lg-auto m-md-auto mb-4 mt-4">
            Connecting businesses and users through great design
          </p>
+         <div class="seo-free-card text-black d-flex flex-column flex-md-row align-items-center p-2 rounded">
+           <div class="seo-free-img mb-3 mb-md-0" onclick="window.location.href='https://webianworld.com/SEO-Service.php';">
+             <img src="./assests/icons/seo-default.png" alt="SEO Icon" class="seoimg">
+           </div>
+           <div class="ms-md-3 text-start">
+             <h5 class="fs-5 fw-semibold">SEO Services</h5>
+             <p class="fs-6">SEO services boost online visibility, drive traffic, and increase conversions.</p>
+           </div>
+         </div>
+         <div class="seo-free2-card text-black d-flex flex-column flex-md-row align-items-center p-2 rounded">
+           <div class="seo-free-img mb-3 mb-md-0" onclick="window.location.href='https://webianworld.com/SEO-Service.php';">
+             <img src="./assests/icons/seo-expert.png" alt="SEO Icon" class="seoimg">
+           </div>
+           <div class="ms-md-3 text-start">
+             <h5 class="fs-5 fw-semibold">SEO Experts</h5>
+             <p class="fs-6">SEO experts enhance rankings, visibility, traffic, and conversions.</p>
+           </div>
+         </div>
          <div
            class="contactUs-box d-flex m-lg-auto m-md-auto mt-lg-3 mt-3 mb-3">
            <form
@@ -41,8 +58,8 @@
          <div class="left-content-box d-flex  flex-column gap-4">
            <div class="p-1 d-flex popup-box gap-3 align-items-center">
              <span class="modern px-3 py-1 fw-semibold new-btn">new</span>
-              <a href="./Package.php" class="fw-semibold">Nietzsche's Business Empowerment with Planfusion <i class="fa-solid fa-chevron-right text-dark ms-2"></i>
-              </a>
+             <a href="./Package.php" class="fw-semibold">Nietzsche's Business Empowerment with Planfusion <i class="fa-solid fa-chevron-right text-dark ms-2"></i>
+             </a>
            </div>
            <h1 class="text-black heading-video fw-semibold"><span class="modern">Modernize</span> Your Business Planning</h1>
            <p class=" para-video"> Start distributing live reports that facilitate quicker,more informed decisions, in more minutes.</p>

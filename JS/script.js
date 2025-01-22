@@ -101,3 +101,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+// Wait for the DOM to load
+document.addEventListener("DOMContentLoaded", function () {
+  // Get all nav-link elements
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  // Mark the link as active based on the current URL
+  navLinks.forEach((link) => {
+    if (link.href === window.location.href) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+
+  // Add click event listener to each nav-link
+  navLinks.forEach((link) => {
+    link.addEventListener("click", function () {
+      // Remove 'active' class from all nav-links
+      navLinks.forEach((item) => {
+        item.classList.remove("active");
+      });
+
+      // Add 'active' class to the clicked link
+      this.classList.add("active");
+    });
+  });
+});

@@ -30,9 +30,7 @@
   display: flex;
   justify-content: center;
  }
- .inner-box{
-  padding-bottom: 1rem ;
- }
+
   ul {
     padding-left: 0 !important;
   }
@@ -220,6 +218,9 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .inner-box{
+    padding-bottom: 12rem !important;
+   }
   .video-container {
     width: 550px;
     height: 370px;
@@ -357,6 +358,7 @@
   }
   .inner-box{
     gap: 2rem;
+    padding-bottom: 9rem !important;
   }
   .contact-us-btn {
     padding: 1rem 2rem ;

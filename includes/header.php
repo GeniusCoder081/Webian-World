@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Webian World: UI UX Software Design Company</title>
-    
+
   <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
   <link rel="shortcut icon" href="./assests/icons/W-Edu.svg" type="image/x-icon" />
   <link
@@ -15,7 +15,7 @@
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- Bootstrap css -->
+  <!-- Bootstrap css -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet" />
@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="./CSS/Style.css" />
   <link rel="stylesheet" href="./CSS/Contact-us.css" />
   <link rel="stylesheet" href="../CSS/Seo.css">
+  <link rel="stylesheet" href="../CSS/Aboutus.css">
   <link rel="stylesheet" href="../CSS/Enterprises.css">
   <link rel="stylesheet" href="../CSS/StartUp.css">
   <link rel="stylesheet" href="../CSS/Process.css">
@@ -72,13 +73,13 @@
             class="navbar-nav m-lg-auto mb-2 p-4 mb-lg-0 p-lg-0 fs-6 animate-links">
             <li class="nav-item">
               <a
-                class="nav-link fw-semibold"
+                class="nav-link"
                 aria-current="page"
                 href="./our-works.php">Our works</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link d-flex align-items-center dropdown-toggle open-inline-popup "
+                class="nav-link d-flex align-items-center dropdown-toggle"
                 href="#"
                 id="dropdownMenuLink"
                 role="button"
@@ -86,9 +87,9 @@
                 aria-expanded="false">
                 Service
               </a>
-              <ul class="dropdown-menu main-drop-menu" aria-labelledby="dropdownMenuLink">
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="../contact-us.php">
                     <span class="menu-text">Enterprises</span>
                   </a>
                 </li>
@@ -98,7 +99,7 @@
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="../our-works.php">
                     <span class="menu-text">UX Audit</span>
                   </a>
                 </li>
@@ -109,6 +110,7 @@
                 </li>
               </ul>
             </li>
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link d-flex align-items-center dropdown-toggle open-inline-popup "
@@ -151,7 +153,7 @@
               <a class="nav-link " href="../Process.php">Process</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">About us</a>
+              <a class="nav-link " href="../AboutUs.php">About us</a>
             </li>
           </ul>
           <div class="d-flex">

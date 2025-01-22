@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --headerclr: #f5f5f5;
+  --primaryclr: #222222;
+  --secondaryclr: #414141;
+  --whiteclr: #ffffff;
+  --btnclr: #ffc901;
+  --hoverclr: #f7d149;
+  --footerclr: #1a2263;
+  /* --footerclr: #11163d; */
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+.fs1 {
+  font-size: 1rem;
+}
+.fs1-5 {
+  font-size: 1.5rem;
+}
+.fs3-125 {
+  font-size: 3.125rem;
+}
+.fs3-5 {
+  font-size: 3.5rem;
+}
+.fs3-75 {
+  font-size: 3.75rem;
+}
+.fs5 {
+  font-size: 5rem;
+}
+.about-one-section .container {
+  max-width: 1400px;
+  padding: 10rem 6rem;
+  margin: 0 auto;
+  z-index: 10;
+}
+.about-two .comon-space {
+  max-width: 1400px;
+  height: 670px;
+}
+.coverpage {
+  position: relative;
+  background: gray;
+  width: 100%;
+  height: 74%;
+}
+.about-one-section {
+  background-image: url(../assests/images/ab.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutus-heading {
+  font-size: 5rem;
+  letter-spacing: 8px;
+}
+.aboutus-home-link,
+.aboutus-span {
+  font-size: 1.2rem;
+  color: rgb(19, 18, 18);
+}
+/* second box */
+.about-two-content-box {
+  position: absolute;
+  top: -90px;
+  margin: auto;
+  padding: 5rem 3rem 5rem 4rem;
+  background-color: #fff;
+  /* box-shadow: -1px -1px 18px -10px rgba(0,0,0,1); */
+}
+.col-lg-5 {
+  width: 48% !important;
+}
+.empower-about-span {
+  font-size: 1.2rem;
+}
+.empower-percentage {
+  color: #414141;
+  font-weight: 600;
+}
+.empower-para {
+  color: #414141;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+.signature {
+  width: 180px;
+}
+.about-first-card {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: -1px -1px 18px -10px rgba(0, 0, 0, 1);
+  max-width: 560px;
+}
+.bdr1 {
+  border-bottom: 1px solid rgb(205, 202, 202);
+}
+.about-card-title {
+  font-size: 1.8rem;
+}
+.img-box {
+  width: 180px;
+  background-color: rgb(195, 195, 192);
+}
+.circle-img {
+  width: 180px;
+  height: 180px;
+  padding: 0.35rem;
+}
+.card-content a {
+  font-size: 0.9rem;
+}
+.right-arrow {
+  width: 15px;
+}
+/* third section............ */
+.about-third-section .container {
+  max-width: 1400px;
+  padding: 8rem 6rem;
+  margin: 0 auto;
+}
+.third-why-para {
+  font-size: 1.2rem;
+  color: #4154f1;
+}
+.third-heading {
+  max-width: 840px;
+  font-size: 3.5rem;
+}
+.img-box-third img {
+  width: 70px;
+}
+.img-box-third {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  border-radius: 100%;
+}
+/* .col-lg-3 {
+  width: 23% !important;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+} */
+.card-text-about {
+  font-size: 1.9rem;
+}
+.cardpara {
+  font-size: 1.2rem;
+  color: #a6a9b3;
+}
+.count-about {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background-color: #4154f1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.qualityCard {
+    width: 23% !important;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+  transition: transform 1.2s ease-in-out, background-color 0.8s ease-in-out;
+}
+.qualityCard:hover {
+  .card-text-about,
+  .cardpara {
+    color: white;
+  }
+  background-color: #4154f1 !important;
+  .img-box-third {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: white !important;
+  }
+  .img-box-third img {
+    margin-top: 7px;
+  }
+  .count-about {
+    color: #4154f1;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1340px) {
+  .about-third-section .container {
+    margin-top: 6rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about-two-content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem !important;
+  }
+  .col-lg-5 {
+    width: 100% !important;
+  }
+  .about-first-card {
+    padding: 1rem;
+    flex-direction: row !important;
+    max-width: 100% !important;
+    gap: 1rem !important;
+  }
+  .bdr1 {
+    border-bottom: none;
+  }
+  .empower-para {
+    font-size: 1.1rem;
+  }
+  .about-third-section .container {
+    padding: 12rem 6rem;
+  }
+  .circle-img {
+    width: 165px;
+    height: 165px;
+  }
+  .about-third-section .container {
+    padding: 8rem 4rem;
+  }
+  .about-third-section .container {
+    margin-top: 4rem;
+  }
+  .qualityCard {
+    width: 100%;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .about-two-content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem !important;
+  }
+  .col-lg-5 {
+    width: 100% !important;
+  }
+  .about-first-card {
+    max-width: 100% !important;
+    gap: 3.5rem !important;
+  }
+  .empower-para {
+    font-size: 1.1rem;
+  }
+  .about-third-section .container {
+    padding: 12rem 6rem;
+  }
+  .circle-img {
+    width: 165px;
+    height: 165px;
+  }
+  .about-two .comon-space {
+    height: 850px;
+  }
+  .about-third-section .container {
+    margin-top: 6rem;
+  }
+  .about-third-section .container {
+    padding: 8rem 4rem;
+  }
+  .qualityCard {
+    width: 30% !important;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .card-text-about {
+    font-size: 1.4rem;
+  }
+  .cardpara {
+    font-size: 1.1rem;
+    color: #a6a9b3;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .about-two-content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem !important;
+    padding: 3rem 1.3rem !important;
+  }
+  .col-lg-5 {
+    width: 100% !important;
+    text-align: left;
+  }
+  .about-first-card {
+    max-width: 100% !important;
+    gap: 3.5rem !important;
+  }
+  .empower-para {
+    font-size: 1.1rem;
+  }
+  .about-third-section .container {
+    padding: 12rem 6rem;
+  }
+  .circle-img {
+    width: 165px;
+    height: 165px;
+  }
+  .about-two .comon-space {
+    height: 850px;
+  }
+  .about-one-section .container {
+    padding: 3rem 5rem 8rem 5rem;
+  }
+  .about-two .comon-space {
+    padding: 0 !important;
+  }
+  .about-third-section .container {
+    /* margin-top: 10rem; */
+    padding: 12rem 1.3rem 4rem 1.3rem !important;
+  }
+  .qualityCard {
+    width: 40% !important;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .card-text-about {
+    font-size: 1.4rem;
+  }
+  .cardpara {
+    font-size: 1.1rem;
+    color: #a6a9b3;
+  }
+  .third-box-card-container .row{
+    display: flex !important;
+    flex-direction: row !important;
+ }
+ .third-heading {
+    font-size: 3rem;
+}
+}
+@media (max-width: 576px) {
+  .about-two-content-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem !important;
+    padding: 2rem 0rem !important;
+  }
+  .col-lg-5 {
+    width: 100% !important;
+    text-align: left;
+  }
+  .about-first-card {
+    max-width: 100% !important;
+    gap: 1.5rem !important;
+    padding: 1rem;
+  }
+  .empower-para {
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+  .about-third-section .container {
+    padding: 12rem 6rem;
+  }
+  .circle-img {
+    width: 110px;
+    height: 110px;
+  }
+  .about-two .comon-space {
+    height: 780px;
+  }
+  .about-card {
+    gap: 1rem !important;
+  }
+  .about-one-section .container {
+    padding: 2rem 0rem 7rem 0rem;
+  }
+  .about-two .comon-space {
+    padding: 0 !important;
+  }
+  .aboutus-heading {
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }
+  .aboutTwo-left h3 {
+    font-size: 2rem !important;
+  }
+  .about-third-section .container {
+    padding: 6rem 1.3rem 4rem 1.3rem !important;
+  }
+  .qualityCard {
+    width: 100% !important;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .card-text-about {
+    font-size: 1.4rem;
+  }
+  .cardpara {
+    font-size: 1.1rem;
+    color: #a6a9b3;
+  }
+  .third-box-card-container .row{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+ }
+ .third-heading {
+    font-size: 1.8rem;
+}
+}
+@media (min-width:420px) and (max-width:500px){
+    .about-third-section .container {
+        padding: 10rem 1.3rem 4rem 1.3rem !important;
+      }
+    
+}
+@media (min-width:360px) and (max-width:420px){
+    .about-third-section .container {
+        margin-top: 5rem;
+        padding: 10rem 1.3rem 4rem 1.3rem !important;
+      }
+     
+}
+@media(max-width:360px){
+    .about-third-section .container {
+        margin-top: 5rem;
+        padding: 15rem 1.3rem 4rem 1.3rem !important;
+      }
+      .about-two .comon-space {
+        height: 800px;
+    }
+}

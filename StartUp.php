@@ -1,5 +1,5 @@
 <?php include 'includes/Header.php'; ?>
-<section class="affordable-section common">
+<section class="affordable-section">
     <div class="container">
         <div class="inner-affordable d-flex gap-lg-4">
             <div class="affordable-left">
@@ -163,11 +163,8 @@
         </div>
         <div class="Custom-plan d-flex flex-wrap border p-3 rounded-4 align-item-center gap-4">
             <div class="first-box ps-3 gap-3">
-                <span class="text-white fw-bold rounded-2 custom">Custom</span>
+                <span class=" fw-bold rounded-2 custom">Custom</span>
                 <p class="custom-para text-justify pt-3">If these plans don't fit, let's create one that suits. Customize your Subscription for a perfect fit, bigger or smaller!</p>
-            </div>
-            <div class="heading-box align-items-center d-flex">
-                <h2 class="text-dark fw-bold ms-3 p-2 rounded-2">Let's Talk!</h2>
             </div>
             <div class="content-box d-flex flex-wrap text-dark fw-bold">
                 <span><i class="fa-solid fa-check text-primary me-2"></i>Design & Development</span>
@@ -186,7 +183,7 @@
 <section class="empower-section ">
     <div class="container">
         <div class="empower-left-box d-flex flex-column justify-content-center text-center gap-lg-3 ">
-            <h4 class="heading fs3-125">Empower your startup with user centric design</h4>
+            <h3 class="heading fs3-125">Empower your startup with user centric design</h3>
             <p class="para fs1-5">
                 We specialize in crafting high quality UX designs at an affordable price that help our startup clients shine in a sea of competitors. Hundreds of startup clients have entrusted Aufait UX with their vision and we have helped them to become unicorns too. We crafted UI UX designs for their products and increased conversion rates and generated substantial revenues.
             </p>
@@ -196,10 +193,10 @@
             <div class="services-logo-box">
                 <ul class="services-logo-list  d-flex flex-wrap overflow-hidden">
                     <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/himalaya-logo.jpg" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center bg-black"> <img src="./assests/icons/whiteLogo.webp" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
-                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/black_logo_white_bg.png" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/sky-logo.svg" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/travel-logo.png" alt=""></li>
+                    <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/TTH-logo-1.png" alt=""></li>
                     <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
                     <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
                     <li class="services-list-item d-flex align-items-center justify-content-center"> <img src="./assests/icons/dummy-logo.png" alt=""></li>
@@ -241,9 +238,9 @@
                  src="./assests/video/case001.mp4"></video>
              </div>
            </a>
-           <h4 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3 ">
+           <h5 class="case-sub-title fs1 pt-lg-2 pt-md-2 pt-2 mt-lg-3 mt-md-3 ">
              Online Plane Tickets booking platform
-           </h4>
+           </h5>
            <a
              href="#"
              class="case-study-title d-block text-decoration-none position-relative pt-lg-1 pb-lg-1">
@@ -449,15 +446,15 @@
 <section class="FAQ-section">
     <div class="container-faq">
         <div class="heading-box">
-            <h3 class="faq-heading fs3-125 m-auto">FAQ on UX design for startups</h3>
+            <h5 class="faq-heading fs3-125 m-auto">FAQ on UX design for startups</h5>
         </div>
         <div class="faq-wrapper m-auto">
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              What is UI/UX Design, and How Does It Benefit My Business?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -510,9 +507,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              What is Your UI/UX Design Process?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -573,9 +570,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              Do You Provide Both Web and Mobile App Design Services?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -596,9 +593,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              Can You Redesign an Existing Website or Application?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -650,9 +647,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              How Long Does It Take to Complete a UI/UX Project?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -667,9 +664,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              How Do You Determine the Cost of a Project?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -682,9 +679,9 @@
          <div class="faq-container">
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
-             <h3 class="sub-title-question fs1-5 font-title-small">
+             <h5 class="sub-title-question fs1-5 font-title-small">
                Do You Work with Businesses of All Sizes?
-             </h3>
+             </h5>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">
@@ -696,9 +693,9 @@
          <div class="faq-container">
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
-             <h3 class="sub-title-question fs1-5 font-title-small">
+             <h5 class="sub-title-question fs1-5 font-title-small">
                Which Design and Front-End Tools Do You Use?
-             </h3>
+             </h5>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">
@@ -728,9 +725,9 @@
          <div class="faq-container">
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
-             <h3 class="sub-title-question fs1-5 font-title-small">
+             <h5 class="sub-title-question fs1-5 font-title-small">
              Do You Provide Regular Updates or Reports on Progress?
-             </h3>
+             </h5>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">
@@ -742,9 +739,9 @@
          <div class="faq-container">
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
-             <h3 class="sub-title-question fs1-5 font-title-small">
+             <h5 class="sub-title-question fs1-5 font-title-small">
              Do You Provide Maintenance and Updates After the Project is Complete?
-             </h3>
+             </h5>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">
