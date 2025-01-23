@@ -10,7 +10,7 @@
 </section>
 <section class="black-box">
     <div class="container">
-        <div class="row gap-lg-4">
+        <div class="row gap-lg-4 blackseo-Row m-auto">
             <div class="col-md-4 Seo-card">
                 <div class="seo-card-img d-flex">
                     <img src="./assests/icons/search-engine-optimization.png" alt="Search Engine Optimization" class="seo-img mx-auto">

@@ -3,8 +3,8 @@
     
     <div class="container comon-space">
         <div class="heading-box-about d-flex flex-column justify-content-center gap-2">
-            <h1 class="aboutus-heading fw-semibold text-warning m-auto">About Us</h1>
-            <span class="m-auto aboutus-span fw-bolder"><a href="./index.php" class="aboutus-home-link text-decoration-none">HOME</a> / ABOUT US</span>
+            <h1 class="aboutus-heading fw-semibold text-white m-auto">About Us</h1>
+            <span class="m-auto aboutus-span fw-bolder"><a href="./index.php" class="aboutus-home-link text-decoration-none">Home</a> / About Us</span>
         </div>
     </div>
 </section>
@@ -27,7 +27,6 @@
                         <span class="text-primary fw-bolder">FOUNDER</span>
                     </div>
                 </div> -->
-
             </div>
             <div class="aboutTwo-right col-lg-5 d-flex flex-column">
                 <div class="about-first-card rounded-4 d-flex flex-column gap-5">

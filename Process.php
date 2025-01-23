@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Title and Description -->
         <div class="text-center mb-5 w-75 m-auto">
-            <h2 class="text-dark fw-bold">From Concept to Creation: Our Design and Development Process</h2>
+            <h2 class="text-dark fw-bold fs3-125">From Concept to Creation: Our Design and Development Process</h2>
         </div>
         <!-- Step Cards -->
         <div class="row g-4 d-flex justify-content-center">
