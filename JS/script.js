@@ -1,4 +1,4 @@
-// navbar dropdown open js.................................
+// navbar dropdown open js............................................................
 document.querySelectorAll('.nav-item').forEach((item) => {
   item.addEventListener('mouseenter', () => {
     const dropdown = item.querySelector('.dropdown-menu');
@@ -10,8 +10,13 @@ document.querySelectorAll('.nav-item').forEach((item) => {
     if (dropdown) dropdown.classList.remove('show');
   });
 });
+// navbar ...........................................................................................................
+window.addEventListener('load', () => {
+  const nav = document.querySelector('.animate-links');
+  nav.classList.add('animation-start');
+});
 
-
+// for blue line in bottom of header...........
 document.addEventListener("scroll", () => {
   const navbar = document.querySelector(".navbar");
   if (window.scrollY > 200) {
@@ -21,7 +26,35 @@ document.addEventListener("scroll", () => {
   }
 });
 
-//  navbar dropdwn js End....................................................................................................................
+// for navbar navlink active and disabled..............................
+document.addEventListener("DOMContentLoaded", function () {
+  // Get all nav-link elements
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  // Mark the link as active based on the current URL
+  navLinks.forEach((link) => {
+    if (link.href === window.location.href) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+
+  // Add click event listener to each nav-link
+  navLinks.forEach((link) => {
+    link.addEventListener("click", function () {
+      // Remove 'active' class from all nav-links
+      navLinks.forEach((item) => {
+        item.classList.remove("active");
+      });
+
+      // Add 'active' class to the clicked link
+      this.classList.add("active");
+    });
+  });
+});
+
+//  navbar dropdwn js End.....................................................................
 document.addEventListener('DOMContentLoaded', function () {
   // Get video and video container elements
   const videoContainer = document.querySelector('.video-container');
@@ -38,17 +71,10 @@ document.addEventListener('DOMContentLoaded', function () {
       video.currentTime = 0; // Reset video to the start when paused
   });
 });
-// navbar ...........................................................................................................
-window.addEventListener('load', () => {
-  const nav = document.querySelector('.animate-links');
-  nav.classList.add('animation-start');
-});
-
 
 // case-study-block for auto video  playing.................................................................................................
 document.addEventListener("DOMContentLoaded", function() {
   const caseStudyBoxes = document.querySelectorAll(".case-study-box");
-
   caseStudyBoxes.forEach(box => {
       const video = box.querySelector(".case-study-video");
       const img = box.querySelector("img");
@@ -63,6 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   });
 });
+
 // case-study-block for auto video  playing End.............................................................
 // FAQ section js.................................................................................................
  const faqQuestions = document.querySelectorAll('.faq-container .question');
@@ -98,33 +125,20 @@ document.addEventListener("DOMContentLoaded", function() {
  });
 // FAQ section js End........................................................
 
+// progress line....................................................................................................................
+// Set the percentage
+document.addEventListener('DOMContentLoaded', () => {
+  // Select all progress elements
+  document.querySelectorAll('.outer-box').forEach((outerBox) => {
+    const box = outerBox.querySelector('.box');
+    const progress = outerBox.querySelector('.progress');
 
+    // Extract percentage from the text inside .box
+    const percentage = parseInt(box.textContent, 10);
 
-
-// Wait for the DOM to load
-document.addEventListener("DOMContentLoaded", function () {
-  // Get all nav-link elements
-  const navLinks = document.querySelectorAll(".nav-link");
-
-  // Mark the link as active based on the current URL
-  navLinks.forEach((link) => {
-    if (link.href === window.location.href) {
-      link.classList.add("active");
-    } else {
-      link.classList.remove("active");
-    }
-  });
-
-  // Add click event listener to each nav-link
-  navLinks.forEach((link) => {
-    link.addEventListener("click", function () {
-      // Remove 'active' class from all nav-links
-      navLinks.forEach((item) => {
-        item.classList.remove("active");
-      });
-
-      // Add 'active' class to the clicked link
-      this.classList.add("active");
-    });
+    // Apply percentage as a CSS variable for smooth animation
+    setTimeout(() => {
+      progress.style.setProperty('--progress', percentage);
+    }, 300); // Delay to ensure animation starts after load
   });
 });

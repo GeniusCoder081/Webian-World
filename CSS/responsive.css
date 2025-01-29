@@ -105,6 +105,9 @@
   .case-title-desc{
     font-size: 1rem !important;
   }
+  .ourwork{
+    font-size: 3rem !important;
+  }
   .testimony-section .card {
     max-width: 100%;
     margin: 0;
@@ -114,9 +117,6 @@
   }
   .container-insight {
     padding: 0 0.75rem;
-  }
-  .testimony-section,.case-study-section {
-    padding: 3rem 1.1rem;
   }
   .insight-wrapper .insight-slider {
     gap: 25px !important;
@@ -132,6 +132,9 @@
     display: none;
   }
   /* faq css responsive */
+  .FAQ-section {
+    padding: 4rem 0;
+  }
   .FAQ-section .question .sub-title-question {
     font-size: 1.1rem;
   }
@@ -139,10 +142,7 @@
     padding: 0 0.75rem;
   }
   .faq-heading{
-    font-size:2.5rem !important ;
-  }
-  .FAQ-section{
-    padding: 3rem 1.2rem ;
+    font-size:2rem !important ;
   }
   .viewmore-btn-wrapper{
     margin-top: 1.5rem !important;
@@ -218,9 +218,10 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .inner-box{
+  /* .inner-box{
     padding-bottom: 12rem !important;
-   }
+   } */
+  
   .video-container {
     width: 550px;
     height: 370px;
@@ -251,6 +252,9 @@
   }
   .testimony-section,.case-study-section {
     padding: 3rem 1.1rem;
+  }
+  .ourwork{
+    font-size: 3.5rem !important;
   }
   .insight-wrapper .insight-slider {
     gap: 25px !important;
@@ -358,7 +362,7 @@
   }
   .inner-box{
     gap: 2rem;
-    padding-bottom: 9rem !important;
+    /* padding-bottom: 9rem !important; */
   }
   .contact-us-btn {
     padding: 1rem 2rem ;
@@ -390,6 +394,9 @@
   }
   .case-title-desc{
     font-size: 1rem !important;
+  }
+  .ourwork{
+    font-size: 3.5rem !important;
   }
   .insight-recog-section .insight-card {
     max-width: calc(33.3333333333% - 12px);
@@ -500,10 +507,12 @@
 .navbar-nav{
   gap: 2rem !important;
 }
+
 }
 @media (min-width: 1200px) and (max-width: 1450px){
 .video-container {
   width: 500px;
   margin-left: 3rem;
 }
+
 }

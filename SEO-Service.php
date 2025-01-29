@@ -1,5 +1,5 @@
 <?php include 'includes/Header.php'; ?>
-
+<!-- main heading of the SEO Page -->
 <section class="Seo-section pb-lg-4 bg-white">
     <div class="container">
         <div>
@@ -8,8 +8,9 @@
         </div>
     </div>
 </section>
+<!-- Balck box Card Section.... -->
 <section class="black-box">
-    <div class="container">
+    <div class="container seo-blackbox">
         <div class="row gap-lg-4 blackseo-Row m-auto">
             <div class="col-md-4 Seo-card">
                 <div class="seo-card-img d-flex">
@@ -105,6 +106,4 @@
         </div>
     </div>
 </section>
-
-
 <?php include 'includes/Footer.php' ?>

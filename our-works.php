@@ -3,7 +3,7 @@
   <div class="container">
     <div class="case-study-wrapper">
       <div class="case-study-heading-block" style="max-width: 1000px">
-        <h3 class="case-study-heading" style="font-size: 5.8rem">
+        <h3 class="case-study-heading ourwork">
           Portfolio of our creative projects
         </h3>
         <p class="case-study-paragraph fs1-5">

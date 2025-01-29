@@ -1,10 +1,9 @@
 <?php include 'includes/Header.php'; ?>
-
 <section class="package-section common">
     <div class="container">
         <div class="package-upper-box text-center">
             <h3 class="heading fs3-75 ">Our UX design packages</h3>
-            <p class="para fs1-5">As a UX design company that values innovation and understands the budgetary constraints of startups, we offer thoughtfully crafted packages to suit your needs. Our affordable UX design solutions ensure you receive maximum value while enabling seamless product launches and sustainable growth. Designed with startups in mind, our packages combine creativity, usability, and cost-effectiveness to bring your vision to life.</p>
+            <p class="para fs1-5 w-75 m-auto pt-4">As a UX design company focused on innovation and startup budgets, we provide tailored packages that ensure maximum value, combining creativity and usability for seamless product launches and sustainable growth.</p>
         </div>
     </div>
     <div class="container my-5 d-flex flex-column">
@@ -112,13 +111,10 @@
                 </tbody>
             </table>
         </div>
-        <div class="Custom-plan d-flex flex-wrap border p-3 rounded-4 align-item-center gap-4">
+        <!-- <div class="Custom-plan d-flex flex-wrap border p-3 rounded-4 align-item-center gap-4">
             <div class="first-box ps-3 gap-3">
-                <span class="text-white fw-bold rounded-2 custom">Custom</span>
+                <span class=" fw-bold rounded-2 custom">Custom</span>
                 <p class="custom-para text-justify pt-3">If these plans don't fit, let's create one that suits. Customize your Subscription for a perfect fit, bigger or smaller!</p>
-            </div>
-            <div class="heading-box align-items-center d-flex">
-                <h2 class="text-dark fw-bold ms-3 p-2 rounded-2">Let's Talk!</h2>
             </div>
             <div class="content-box d-flex flex-wrap text-dark fw-bold">
                 <span><i class="fa-solid fa-check text-primary me-2"></i>Design & Development</span>
@@ -131,7 +127,7 @@
             <div class="button-box m-auto">
                 <button class="btn btn-warning text-dark btn-sm px-5 py-3 fw-bold">Select Package</button>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <?php include 'includes/Footer.php'; ?>

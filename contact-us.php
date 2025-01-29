@@ -5,7 +5,7 @@
         <div class="container">
           <div class="contact-us-wrapper d-flex justify-content-between">
             <div class="contact-us-banner-content">
-              <h2 class="contact-us-title">Let's get to work</h2>
+              <h2 class="contact-us-title pe-4 fw-bold">Let's get to work</h2>
             </div>
 
             <!-- contact-us-banner-content -->
@@ -23,36 +23,37 @@
                 <input
                   type="hidden"
                   name="apikey"
-                  value="26b5796d-9649-4171-9997-d2eb69f6eaeb"
+                  value="b420d4a5-0f94-4817-a386-fd3b846d3db9"
+                  
                 />
                 <!-- Hidden HoneyPot Field for Spam Protection -->
                 <div style="display: none">
-                  <input type="text" name="Genius_Londa" value="" />
+                  <input type="text" name="Webian World" value="" />
                 </div>
                 <div class="fields-wrap">
                   <div class="form-group name">
                     <input
-                      class="form-input"
+                      class="form-input border-0 fw-semibold"
                       type="text"
                       id="name"
                       name="NAME"
                       required
                       placeholder="Enter your name.."
                     />
-                    <label for="name" class="form-label">Your name?</label>
+                    <label for="name" class="form-label overflow-hidden position-absolute w-100">Your name?</label>
                     <div class="error-txt">*required</div>
                   </div>
 
                   <div class="form-group email">
                     <input
-                      class="form-input"
+                      class="form-input border-0 fw-semibold"
                       type="email"
                       id="inputEmail"
                       name="EMAIL"
                       required
                        placeholder="Enter email address..."
                     />
-                    <label for="inputEmail" class="form-label font-weight-500"
+                    <label for="inputEmail" class="form-label overflow-hidden position-absolute w-100 font-weight-500"
                       >Email address?</label
                     >
                     <div class="error-txt">*required</div>
@@ -60,22 +61,22 @@
 
                   <div class="form-group phone-num">
                     <input
-                      class="form-input phone-num"
+                      class="form-input border-0 fw-semibold phone-num"
                       type="number"
                       id="phonenumber"
                       name="NUMBER"
                       required
                        placeholder="Enter mobile no."
                     />
-                    <label for="phonenumber" class="form-label"
+                    <label for="phonenumber" class="form-label overflow-hidden position-absolute w-100"
                       >Phone number?</label
                     >
                     <div class="error-txt">*required</div>
                   </div>
 
                   <div class="form-group text">
-                    <input class="form-input" id="text" name="HELP"   placeholder="text here..."/>
-                    <label for="text" class="form-label"
+                    <input class="form-input border-0 fw-semibold" id="text" name="HELP"   placeholder="text here..."/>
+                    <label for="text" class="form-label overflow-hidden position-absolute w-100"
                       >Tell us about your requirements</label
                     >
                   </div>
@@ -106,15 +107,6 @@
                   <div class="office-loc-details">D-174</div>
                   <div class="office-loc-details">201301 Sector 73 ,Mahagun Appartment</div>
                 </div>
-                <!-- <div class="office-desc">
-                  <div class="para-head">Calicut</div>
-                  <div class="office-loc-details">Sahya building</div>
-                  <div class="office-loc-details">Govt. Cyberpark</div>
-                  <div class="office-loc-details">Calicut - 673014</div>
-                  <a href="tel:+91 6235611222" class="office-loc-details"
-                    >+91 623 561 1222</a
-                  >
-                </div> -->
               </div>
             </div>
           </div>

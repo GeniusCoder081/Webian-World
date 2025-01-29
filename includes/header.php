@@ -35,7 +35,7 @@
   <header class=" sticky-top">
     <nav class="navbar navbar-expand-lg  py-lg-0">
       <div class="container-fluid px-lg-5 py-lg-2">
-        <a class="navbar-brand fs-2" href="../index.php"><img
+        <a class="navbar-brand fs-2" href="../"><img
             src="./assests/images/logo.svg"
             width="180px"
             height="80px"
@@ -89,7 +89,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
-                  <a class="dropdown-item" href="../contact-us.php">
+                  <a class="dropdown-item" href="#">
                     <span class="menu-text">Enterprises</span>
                   </a>
                 </li>

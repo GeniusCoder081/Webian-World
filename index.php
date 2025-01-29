@@ -1,4 +1,5 @@
  <?php include 'includes/Header.php'; ?>
+ 
  <section class="content pb-lg-5">
    <div class="hero-container pt-lg-4">
      <div
@@ -11,7 +12,7 @@
          <p class="banner-desc pt-lg-3 m-lg-auto m-md-auto mb-4 mt-4">
            Connecting businesses and users through great design
          </p>
-         <div class="seo-free-card text-black d-flex flex-column flex-md-row align-items-center p-2 rounded">
+         <div class=" seo-free-card text-black d-flex flex-column flex-md-row align-items-center p-2 rounded">
            <div class="seo-free-img mb-3 mb-md-0" onclick="window.location.href='https://webianworld.com/SEO-Service.php';">
              <img src="./assests/icons/seo-default.png" alt="SEO Icon" class="seoimg">
            </div>
@@ -409,9 +410,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              What is UI/UX Design, and How Does It Benefit My Business?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -464,9 +465,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              What is Your UI/UX Design Process?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -527,9 +528,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              Do You Provide Both Web and Mobile App Design Services?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -550,9 +551,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              Can You Redesign an Existing Website or Application?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -604,9 +605,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              How Long Does It Take to Complete a UI/UX Project?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -621,9 +622,9 @@
        <div class="faq-container">
          <div
            class="question position-relative d-flex align-items-center justify-content-between">
-           <h3 class="sub-title-question fs1-5 font-title-small">
+           <h5 class="sub-title-question fs1-5 font-title-small">
              How Do You Determine the Cost of a Project?
-           </h3>
+           </h5>
            <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
          </div>
          <div class="answercont">
@@ -636,9 +637,9 @@
          <div class="faq-container">
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
-             <h3 class="sub-title-question fs1-5 font-title-small">
+             <h5 class="sub-title-question fs1-5 font-title-small">
                Do You Work with Businesses of All Sizes?
-             </h3>
+             </h5>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">
@@ -650,9 +651,9 @@
          <div class="faq-container">
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
-             <h3 class="sub-title-question fs1-5 font-title-small">
+             <h5 class="sub-title-question fs1-5 font-title-small">
                Which Design and Front-End Tools Do You Use?
-             </h3>
+             </h5>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">
@@ -682,9 +683,9 @@
          <div class="faq-container">
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
-             <h3 class="sub-title-question fs1-5 font-title-small">
+             <h5 class="sub-title-question fs1-5 font-title-small">
                Do You Provide Regular Updates or Reports on Progress?
-             </h3>
+             </h5>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">
@@ -696,9 +697,9 @@
          <div class="faq-container">
            <div
              class="question position-relative d-flex align-items-center justify-content-between">
-             <h3 class="sub-title-question fs1-5 font-title-small">
+             <h5 class="sub-title-question fs1-5 font-title-small">
                Do You Provide Maintenance and Updates After the Project is Complete?
-             </h3>
+             </h5>
              <i class="toggle-icon fas fa-chevron-down ml-auto"></i>
            </div>
            <div class="answercont">

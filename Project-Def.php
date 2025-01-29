@@ -163,7 +163,6 @@
     </div>
 </section>
 <?php include 'includes/Footer.php'; ?>
-
 <style>
     .process-section {
         background: #f9f9f9;

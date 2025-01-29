@@ -12,7 +12,6 @@
   --btnclr: #ffc901;
   --hoverclr: #f7d149;
   --footerclr: #1a2263;
-  /* --footerclr: #11163d; */
 }
 h3,
 h2,
@@ -34,7 +33,6 @@ h1 {
 .fs5 {
   font-size: 5rem;
 }
-
 header {
   background-color: var(--whiteclr);
 }
@@ -61,6 +59,7 @@ header {
   opacity: 0.6;
   font-weight: 700 !important;
 }
+
 /* Define the keyframes for fade-in and slide-up */
 @keyframes fadeInUp {
   from {
@@ -118,7 +117,7 @@ header {
 }
 .inner-box {
   max-width: 950px;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 .banner-title {
   font-size: 5rem;
@@ -369,6 +368,9 @@ header {
   color: #414141 !important;
   margin-left: 1.2rem;
 }
+.ourwork{
+  font-size: 5.5rem ;
+}
 .image-content {
   min-width: 100%;
   max-width: 100%;
@@ -480,6 +482,7 @@ header {
 /* FAQ Section Css */
 .FAQ-section {
   padding: 8rem 0;
+  background: var(--headerclr);
 }
 .container-faq {
   max-width: 1400px;
